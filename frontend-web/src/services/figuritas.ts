@@ -7,6 +7,9 @@ export interface Figurita {
     equipo?: string
     posicion?: string
     imagen_url?: string
+    team?: string
+    type?: string
+    rareza?: string
 }
 
 export interface UserFigurita {

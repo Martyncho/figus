@@ -8,7 +8,7 @@ import logger from '../utils/logger';
 export async function getAllFiguritas(req: Request, res: Response) {
     try {
         const result = await pool.query(
-            'SELECT id, numero, nombre, descripcion, imagen_url, rareza, anio FROM figuritas ORDER BY numero ASC'
+            'SELECT id, numero, nombre, descripcion, imagen_url, rareza, anio, team, type FROM figuritas ORDER BY numero ASC'
         );
 
         res.json({
@@ -286,7 +286,7 @@ export async function getCollectionStats(req: Request, res: Response) {
             status: 'OK',
             data: {
                 collected,
-                total,
+                total_figuritas: total,
                 missing,
                 percentage: parseFloat(percentage),
             },

@@ -25,6 +25,9 @@ function App() {
   const [collection, setCollection] = useState<UserFigurita[]>([])
   const [dashboardLoading, setDashboardLoading] = useState(true)
   const [filterType, setFilterType] = useState<'all' | 'collected' | 'duplicates' | 'missing'>('all')
+  const [filterCountry, setFilterCountry] = useState<string>('all')
+  const [filterRarity, setFilterRarity] = useState<string>('all')
+  const [filterCardType, setFilterCardType] = useState<string>('all')
 
   // Initialize - check if user is already logged in
   useEffect(() => {
@@ -149,21 +152,40 @@ function App() {
   // Calculate total duplicates
   const totalDuplicates = collection.reduce((sum, item) => sum + (item.cantidad > 1 ? item.cantidad - 1 : 0), 0)
 
-  // Filter figuritas based on selected filter
+  // Calculate total collected (distinct figuritas in collection)
+  const totalCollected = collection.length
+
+  // Filter figuritas based on selected filters
   const getFilteredFiguritas = () => {
     return figuritas.filter((figurita) => {
       const collectedItem = collection.find((c) => c.figurita_id === figurita.id)
       
+      // Filter by collection status
+      let statusMatch = true
       switch (filterType) {
         case 'collected':
-          return collectedItem && collectedItem.cantidad === 1
+          statusMatch = collectedItem && collectedItem.cantidad >= 1
+          break
         case 'duplicates':
-          return collectedItem && collectedItem.cantidad > 1
+          statusMatch = collectedItem && collectedItem.cantidad > 1
+          break
         case 'missing':
-          return !collectedItem
+          statusMatch = !collectedItem
+          break
         default:
-          return true
+          statusMatch = true
       }
+
+      // Filter by country
+      const countryMatch = filterCountry === 'all' || figurita.team === filterCountry
+
+      // Filter by rarity
+      const rarityMatch = filterRarity === 'all' || figurita.rareza === filterRarity
+
+      // Filter by card type
+      const typeMatch = filterCardType === 'all' || figurita.type === filterCardType
+
+      return statusMatch && countryMatch && rarityMatch && typeMatch
     })
   }
 
@@ -277,7 +299,7 @@ function App() {
             <div className="stats-grid">
               <div className="stat-card">
                 <h3>Total</h3>
-                <p className="stat-number">{stats.total_figuritas}</p>
+                <p className="stat-number">{(stats as any)?.total || (stats as any)?.total_figuritas || 980}</p>
               </div>
               <div className="stat-card">
                 <h3>Coleccionadas</h3>
@@ -304,6 +326,8 @@ function App() {
         <section className="figuritas-section">
           <div className="section-header">
             <h2>🎴 Figuritas Disponibles</h2>
+            
+            {/* Status filters */}
             <div className="filter-buttons">
               <button
                 className={`filter-btn ${filterType === 'all' ? 'active' : ''}`}
@@ -315,19 +339,13 @@ function App() {
                 className={`filter-btn ${filterType === 'collected' ? 'active' : ''}`}
                 onClick={() => setFilterType('collected')}
               >
-                Completas ({figuritas.filter(f => {
-                  const item = collection.find(c => c.figurita_id === f.id)
-                  return item && item.cantidad === 1
-                }).length})
+                Completas ({totalCollected})
               </button>
               <button
                 className={`filter-btn ${filterType === 'duplicates' ? 'active' : ''}`}
                 onClick={() => setFilterType('duplicates')}
               >
-                Repetidas ({figuritas.filter(f => {
-                  const item = collection.find(c => c.figurita_id === f.id)
-                  return item && item.cantidad > 1
-                }).length})
+                Repetidas ({totalDuplicates})
               </button>
               <button
                 className={`filter-btn ${filterType === 'missing' ? 'active' : ''}`}
@@ -335,6 +353,43 @@ function App() {
               >
                 Faltantes ({figuritas.filter(f => !collection.find(c => c.figurita_id === f.id)).length})
               </button>
+            </div>
+
+            {/* Additional filters */}
+            <div className="advanced-filters">
+              <select 
+                className="filter-select"
+                value={filterCountry} 
+                onChange={(e) => setFilterCountry(e.target.value)}
+              >
+                <option value="all">🌍 Todos los Países</option>
+                {Array.from(new Set(figuritas.map(f => f.team))).sort().map((country) => (
+                  <option key={country} value={country}>{country}</option>
+                ))}
+              </select>
+
+              <select 
+                className="filter-select"
+                value={filterCardType} 
+                onChange={(e) => setFilterCardType(e.target.value)}
+              >
+                <option value="all">🎫 Todos los Tipos</option>
+                <option value="player">👤 Jugadores</option>
+                <option value="badge">🏆 Escudos</option>
+                <option value="team_photo">🏟️ Fotos de Equipo</option>
+                <option value="special">⭐ Especiales</option>
+              </select>
+
+              <select 
+                className="filter-select"
+                value={filterRarity} 
+                onChange={(e) => setFilterRarity(e.target.value)}
+              >
+                <option value="all">✨ Todas las Rarezas</option>
+                <option value="base">Base</option>
+                <option value="common">Común</option>
+                <option value="rare">Rara</option>
+              </select>
             </div>
           </div>
           {dashboardLoading ? (

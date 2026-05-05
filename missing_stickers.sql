@@ -1,0 +1,10 @@
+﻿INSERT INTO figuritas (id, numero, nombre, team, type, rareza, anio) VALUES ('811', 811, 'Jugador 10 Argelia', 'Argelia', 'player', 'base', 2026) ON CONFLICT (id) DO NOTHING;
+INSERT INTO figuritas (id, numero, nombre, team, type, rareza, anio) VALUES ('812', 812, 'Jugador 11 Argelia', 'Argelia', 'player', 'base', 2026) ON CONFLICT (id) DO NOTHING;
+INSERT INTO figuritas (id, numero, nombre, team, type, rareza, anio) VALUES ('813', 813, 'Equipo Argelia', 'Argelia', 'team_photo', 'base', 2026) ON CONFLICT (id) DO NOTHING;
+INSERT INTO figuritas (id, numero, nombre, team, type, rareza, anio) VALUES ('814', 814, 'Jugador 13 Argelia', 'Argelia', 'player', 'base', 2026) ON CONFLICT (id) DO NOTHING;
+INSERT INTO figuritas (id, numero, nombre, team, type, rareza, anio) VALUES ('815', 815, 'Jugador 14 Argelia', 'Argelia', 'player', 'base', 2026) ON CONFLICT (id) DO NOTHING;
+INSERT INTO figuritas (id, numero, nombre, team, type, rareza, anio) VALUES ('816', 816, 'Jugador 15 Argelia', 'Argelia', 'player', 'base', 2026) ON CONFLICT (id) DO NOTHING;
+INSERT INTO figuritas (id, numero, nombre, team, type, rareza, anio) VALUES ('817', 817, 'Jugador 16 Argelia', 'Argelia', 'player', 'base', 2026) ON CONFLICT (id) DO NOTHING;
+INSERT INTO figuritas (id, numero, nombre, team, type, rareza, anio) VALUES ('818', 818, 'Jugador 17 Argelia', 'Argelia', 'player', 'base', 2026) ON CONFLICT (id) DO NOTHING;
+INSERT INTO figuritas (id, numero, nombre, team, type, rareza, anio) VALUES ('819', 819, 'Jugador 18 Argelia', 'Argelia', 'player', 'base', 2026) ON CONFLICT (id) DO NOTHING;
+INSERT INTO figuritas (id, numero, nombre, team, type, rareza, anio) VALUES ('820', 820, 'Jugador 19 Argelia', 'Argelia', 'player', 'base', 2026) ON CONFLICT (id) DO NOTHING;
