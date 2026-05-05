@@ -1,0 +1,27 @@
+{
+    "name": "panini-mobile",
+    "version": "1.0.0",
+    "description": "Panini Figuritas - Mobile App (Hybrid)",
+    "scripts": {
+        "dev": "cd www && npm run dev",
+        "build": "cd www && npm run build",
+        "build:ios": "cd ios && xcodebuild -workspace PaniApp.xcworkspace -scheme PaniApp -configuration Release -archivePath ./PaniApp.xcarchive archive",
+        "build:android": "cd android && ./gradlew bundleRelease",
+        "start:web": "cd www && npm run dev",
+        "test": "cd www && npm run test",
+        "lint": "cd www && npm run lint"
+    },
+    "workspaces": [
+        "www"
+    ],
+    "keywords": [
+        "panini",
+        "figuritas",
+        "mobile",
+        "hybrid",
+        "react-native"
+    ],
+    "author": "Panini Team",
+    "license": "MIT",
+    "devDependencies": {}
+}

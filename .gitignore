@@ -1,0 +1,106 @@
+# Dependencies
+node_modules
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Testing
+.nyc_output/
+.coverage/
+jest-results.json
+
+# Infrastructure
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.lock.hcl
+.terraform.lock.hcl
+
+# AWS
+.aws/
+.aws-cli/
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Mobile
+mobile-app/ios/Pods/
+mobile-app/ios/Podfile.lock
+mobile-app/android/.gradle/
+mobile-app/android/build/
+mobile-app/android/.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Private keys
+*.pem
+*.key
+*.jks
+*.p12
+*.pfx
+
+# Secrets
+secrets.txt
+private-keys/
+
+# Misc
+.cache/
+.tmp/
+tmp/
+*.bak
+*.backup
