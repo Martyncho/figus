@@ -167,6 +167,66 @@ export async function removeFiguritaFromCollection(req: Request, res: Response) 
 }
 
 /**
+ * Decrease figurita quantity by 1 (remove duplicate)
+ */
+export async function decreaseFiguritaQuantity(req: Request, res: Response) {
+    try {
+        const userId = req.user?.id;
+        const { figurita_id } = req.params;
+
+        if (!userId) {
+            return res.status(401).json({ error: 'Unauthorized' });
+        }
+
+        // Get current quantity
+        const checkResult = await pool.query(
+            'SELECT cantidad FROM user_figuritas WHERE user_id = $1 AND figurita_id = $2',
+            [userId, figurita_id]
+        );
+
+        if (checkResult.rows.length === 0) {
+            return res.status(404).json({ error: 'Figurita not found in collection' });
+        }
+
+        const currentQuantidad = checkResult.rows[0].cantidad;
+
+        // If quantity is 1 or less, delete the figurita
+        if (currentQuantidad <= 1) {
+            const deleteResult = await pool.query(
+                'DELETE FROM user_figuritas WHERE user_id = $1 AND figurita_id = $2 RETURNING *',
+                [userId, figurita_id]
+            );
+
+            return res.json({
+                status: 'OK',
+                message: 'Figurita removed from collection',
+                data: deleteResult.rows[0],
+                deleted: true,
+            });
+        }
+
+        // Otherwise, decrease quantity by 1
+        const result = await pool.query(
+            `UPDATE user_figuritas 
+       SET cantidad = cantidad - 1, updated_at = NOW() 
+       WHERE user_id = $1 AND figurita_id = $2 
+       RETURNING *`,
+            [userId, figurita_id]
+        );
+
+        res.json({
+            status: 'OK',
+            message: 'Figurita quantity decreased',
+            data: result.rows[0],
+            deleted: false,
+        });
+    } catch (error) {
+        logger.error('Error decreasing figurita quantity', { error });
+        res.status(500).json({ error: 'Failed to decrease figurita quantity' });
+    }
+}
+
+/**
  * Get missing figuritas (faltantes)
  */
 export async function getMissingFiguritas(req: Request, res: Response) {

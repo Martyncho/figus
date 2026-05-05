@@ -98,6 +98,31 @@ export const apiClient = {
         return data.data !== undefined ? data.data : data
     },
 
+    async patch<T>(endpoint: string, body?: any, token?: string): Promise<T> {
+        const headers: HeadersInit = {
+            'Content-Type': 'application/json',
+        }
+
+        const authToken = token || getToken()
+        if (authToken) {
+            headers['Authorization'] = `Bearer ${authToken}`
+        }
+
+        const response = await fetch(`${API_BASE}${endpoint}`, {
+            method: 'PATCH',
+            headers,
+            body: body ? JSON.stringify(body) : undefined,
+        })
+
+        if (!response.ok) {
+            throw new Error(`API Error: ${response.status} ${response.statusText}`)
+        }
+
+        const data = await response.json()
+        // Handle both wrapped (with data field) and unwrapped responses
+        return data.data !== undefined ? data.data : data
+    },
+
     getToken,
     setToken,
     clearToken,

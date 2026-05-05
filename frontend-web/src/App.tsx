@@ -24,6 +24,7 @@ function App() {
   const [figuritas, setFiguritas] = useState<Figurita[]>([])
   const [collection, setCollection] = useState<UserFigurita[]>([])
   const [dashboardLoading, setDashboardLoading] = useState(true)
+  const [filterType, setFilterType] = useState<'all' | 'collected' | 'duplicates' | 'missing'>('all')
 
   // Initialize - check if user is already logged in
   useEffect(() => {
@@ -129,6 +130,44 @@ function App() {
       console.error('Error adding figurita:', err)
     }
   }
+
+  const handleRemoveFromCollection = async (figuritaId: string) => {
+    try {
+      await figuritasService.decreaseFiguritaQuantity(figuritaId)
+      // Reload collection and stats
+      const [updatedStats, updatedCollection] = await Promise.all([
+        figuritasService.getCollectionStats(),
+        figuritasService.getUserCollection(),
+      ])
+      setStats(updatedStats)
+      setCollection(updatedCollection)
+    } catch (err) {
+      console.error('Error removing figurita:', err)
+    }
+  }
+
+  // Calculate total duplicates
+  const totalDuplicates = collection.reduce((sum, item) => sum + (item.cantidad > 1 ? item.cantidad - 1 : 0), 0)
+
+  // Filter figuritas based on selected filter
+  const getFilteredFiguritas = () => {
+    return figuritas.filter((figurita) => {
+      const collectedItem = collection.find((c) => c.figurita_id === figurita.id)
+      
+      switch (filterType) {
+        case 'collected':
+          return collectedItem && collectedItem.cantidad === 1
+        case 'duplicates':
+          return collectedItem && collectedItem.cantidad > 1
+        case 'missing':
+          return !collectedItem
+        default:
+          return true
+      }
+    })
+  }
+
+  const filteredFiguritas = getFilteredFiguritas()
 
   if (isLoading) {
     return <div className="app"><p>Cargando...</p></div>
@@ -245,8 +284,8 @@ function App() {
                 <p className="stat-number">{stats.collected}</p>
               </div>
               <div className="stat-card">
-                <h3>Faltantes</h3>
-                <p className="stat-number">{stats.missing}</p>
+                <h3>Repetidas</h3>
+                <p className="stat-number">{totalDuplicates}</p>
               </div>
               <div className="stat-card">
                 <h3>Progreso</h3>
@@ -263,33 +302,82 @@ function App() {
 
         {/* Figuritas Section */}
         <section className="figuritas-section">
-          <h2>🎴 Figuritas Disponibles</h2>
+          <div className="section-header">
+            <h2>🎴 Figuritas Disponibles</h2>
+            <div className="filter-buttons">
+              <button
+                className={`filter-btn ${filterType === 'all' ? 'active' : ''}`}
+                onClick={() => setFilterType('all')}
+              >
+                Todas ({figuritas.length})
+              </button>
+              <button
+                className={`filter-btn ${filterType === 'collected' ? 'active' : ''}`}
+                onClick={() => setFilterType('collected')}
+              >
+                Completas ({figuritas.filter(f => {
+                  const item = collection.find(c => c.figurita_id === f.id)
+                  return item && item.cantidad === 1
+                }).length})
+              </button>
+              <button
+                className={`filter-btn ${filterType === 'duplicates' ? 'active' : ''}`}
+                onClick={() => setFilterType('duplicates')}
+              >
+                Repetidas ({figuritas.filter(f => {
+                  const item = collection.find(c => c.figurita_id === f.id)
+                  return item && item.cantidad > 1
+                }).length})
+              </button>
+              <button
+                className={`filter-btn ${filterType === 'missing' ? 'active' : ''}`}
+                onClick={() => setFilterType('missing')}
+              >
+                Faltantes ({figuritas.filter(f => !collection.find(c => c.figurita_id === f.id)).length})
+              </button>
+            </div>
+          </div>
           {dashboardLoading ? (
             <p>Cargando figuritas...</p>
           ) : (
             <div className="figuritas-grid">
-              {figuritas.map((figurita) => {
-                const isCollected = collection.some((c) => c.figurita_id === figurita.id)
-                return (
-                  <div key={figurita.id} className={`figurita-card ${isCollected ? 'collected' : ''}`}>
-                    <div className="figurita-header">
-                      <span className="figurita-numero">#{figurita.numero}</span>
-                      {isCollected && <span className="collected-badge">✓</span>}
+              {filteredFiguritas.length === 0 ? (
+                <p className="no-results">No hay figuritas en esta categoría</p>
+              ) : (
+                filteredFiguritas.map((figurita) => {
+                  const collectedItem = collection.find((c) => c.figurita_id === figurita.id)
+                  const quantity = collectedItem?.cantidad || 0
+                  return (
+                    <div key={figurita.id} className={`figurita-card ${quantity > 0 ? 'collected' : ''} ${quantity > 1 ? 'duplicate' : ''}`}>
+                      <div className="figurita-header">
+                        <span className="figurita-numero">#{figurita.numero}</span>
+                        {quantity > 0 && <span className="collected-badge">✓</span>}
+                        {quantity > 1 && <span className="duplicate-badge">×{quantity}</span>}
+                      </div>
+                      <h3>{figurita.nombre}</h3>
+                      {figurita.equipo && <p className="figurita-team">{figurita.equipo}</p>}
+                      {figurita.posicion && <p className="figurita-position">{figurita.posicion}</p>}
+                      <div className="button-group">
+                        {quantity > 0 && (
+                          <button
+                            onClick={() => handleRemoveFromCollection(figurita.id)}
+                            className="remove-btn"
+                            title="Quitar una figurita"
+                          >
+                            - Quitar
+                          </button>
+                        )}
+                        <button
+                          onClick={() => handleAddToCollection(figurita.id)}
+                          className="add-btn"
+                        >
+                          {quantity === 0 ? '+ Agregar' : `+ Agregar (${quantity})`}
+                        </button>
+                      </div>
                     </div>
-                    <h3>{figurita.nombre}</h3>
-                    {figurita.equipo && <p className="figurita-team">{figurita.equipo}</p>}
-                    {figurita.posicion && <p className="figurita-position">{figurita.posicion}</p>}
-                    {!isCollected && (
-                      <button
-                        onClick={() => handleAddToCollection(figurita.id)}
-                        className="add-btn"
-                      >
-                        + Agregar
-                      </button>
-                    )}
-                  </div>
-                )
-              })}
+                  )
+                })
+              )}
             </div>
           )}
         </section>

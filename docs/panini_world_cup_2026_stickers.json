@@ -1,0 +1,8822 @@
+[
+  {
+    "id": "ARG-01",
+    "number": 1,
+    "team": "Argentina",
+    "type": "badge",
+    "name": "Escudo Argentina",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-02",
+    "number": 2,
+    "team": "Argentina",
+    "type": "player",
+    "name": "Jugador 1 Argentina",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-03",
+    "number": 3,
+    "team": "Argentina",
+    "type": "player",
+    "name": "Jugador 2 Argentina",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-04",
+    "number": 4,
+    "team": "Argentina",
+    "type": "player",
+    "name": "Jugador 3 Argentina",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-05",
+    "number": 5,
+    "team": "Argentina",
+    "type": "player",
+    "name": "Jugador 4 Argentina",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-06",
+    "number": 6,
+    "team": "Argentina",
+    "type": "player",
+    "name": "Jugador 5 Argentina",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-07",
+    "number": 7,
+    "team": "Argentina",
+    "type": "player",
+    "name": "Jugador 6 Argentina",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-08",
+    "number": 8,
+    "team": "Argentina",
+    "type": "player",
+    "name": "Jugador 7 Argentina",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-09",
+    "number": 9,
+    "team": "Argentina",
+    "type": "player",
+    "name": "Jugador 8 Argentina",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-10",
+    "number": 10,
+    "team": "Argentina",
+    "type": "player",
+    "name": "Jugador 9 Argentina",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-11",
+    "number": 11,
+    "team": "Argentina",
+    "type": "player",
+    "name": "Jugador 10 Argentina",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-12",
+    "number": 12,
+    "team": "Argentina",
+    "type": "player",
+    "name": "Jugador 11 Argentina",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-13",
+    "number": 13,
+    "team": "Argentina",
+    "type": "team_photo",
+    "name": "Equipo Argentina",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-14",
+    "number": 14,
+    "team": "Argentina",
+    "type": "player",
+    "name": "Jugador 13 Argentina",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-15",
+    "number": 15,
+    "team": "Argentina",
+    "type": "player",
+    "name": "Jugador 14 Argentina",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-16",
+    "number": 16,
+    "team": "Argentina",
+    "type": "player",
+    "name": "Jugador 15 Argentina",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-17",
+    "number": 17,
+    "team": "Argentina",
+    "type": "player",
+    "name": "Jugador 16 Argentina",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-18",
+    "number": 18,
+    "team": "Argentina",
+    "type": "player",
+    "name": "Jugador 17 Argentina",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-19",
+    "number": 19,
+    "team": "Argentina",
+    "type": "player",
+    "name": "Jugador 18 Argentina",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-20",
+    "number": 20,
+    "team": "Argentina",
+    "type": "player",
+    "name": "Jugador 19 Argentina",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FRA-01",
+    "number": 21,
+    "team": "Francia",
+    "type": "badge",
+    "name": "Escudo Francia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FRA-02",
+    "number": 22,
+    "team": "Francia",
+    "type": "player",
+    "name": "Jugador 1 Francia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FRA-03",
+    "number": 23,
+    "team": "Francia",
+    "type": "player",
+    "name": "Jugador 2 Francia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FRA-04",
+    "number": 24,
+    "team": "Francia",
+    "type": "player",
+    "name": "Jugador 3 Francia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FRA-05",
+    "number": 25,
+    "team": "Francia",
+    "type": "player",
+    "name": "Jugador 4 Francia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FRA-06",
+    "number": 26,
+    "team": "Francia",
+    "type": "player",
+    "name": "Jugador 5 Francia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FRA-07",
+    "number": 27,
+    "team": "Francia",
+    "type": "player",
+    "name": "Jugador 6 Francia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FRA-08",
+    "number": 28,
+    "team": "Francia",
+    "type": "player",
+    "name": "Jugador 7 Francia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FRA-09",
+    "number": 29,
+    "team": "Francia",
+    "type": "player",
+    "name": "Jugador 8 Francia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FRA-10",
+    "number": 30,
+    "team": "Francia",
+    "type": "player",
+    "name": "Jugador 9 Francia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FRA-11",
+    "number": 31,
+    "team": "Francia",
+    "type": "player",
+    "name": "Jugador 10 Francia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FRA-12",
+    "number": 32,
+    "team": "Francia",
+    "type": "player",
+    "name": "Jugador 11 Francia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FRA-13",
+    "number": 33,
+    "team": "Francia",
+    "type": "team_photo",
+    "name": "Equipo Francia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FRA-14",
+    "number": 34,
+    "team": "Francia",
+    "type": "player",
+    "name": "Jugador 13 Francia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FRA-15",
+    "number": 35,
+    "team": "Francia",
+    "type": "player",
+    "name": "Jugador 14 Francia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FRA-16",
+    "number": 36,
+    "team": "Francia",
+    "type": "player",
+    "name": "Jugador 15 Francia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FRA-17",
+    "number": 37,
+    "team": "Francia",
+    "type": "player",
+    "name": "Jugador 16 Francia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FRA-18",
+    "number": 38,
+    "team": "Francia",
+    "type": "player",
+    "name": "Jugador 17 Francia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FRA-19",
+    "number": 39,
+    "team": "Francia",
+    "type": "player",
+    "name": "Jugador 18 Francia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FRA-20",
+    "number": 40,
+    "team": "Francia",
+    "type": "player",
+    "name": "Jugador 19 Francia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BRA-01",
+    "number": 41,
+    "team": "Brasil",
+    "type": "badge",
+    "name": "Escudo Brasil",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BRA-02",
+    "number": 42,
+    "team": "Brasil",
+    "type": "player",
+    "name": "Jugador 1 Brasil",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BRA-03",
+    "number": 43,
+    "team": "Brasil",
+    "type": "player",
+    "name": "Jugador 2 Brasil",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BRA-04",
+    "number": 44,
+    "team": "Brasil",
+    "type": "player",
+    "name": "Jugador 3 Brasil",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BRA-05",
+    "number": 45,
+    "team": "Brasil",
+    "type": "player",
+    "name": "Jugador 4 Brasil",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BRA-06",
+    "number": 46,
+    "team": "Brasil",
+    "type": "player",
+    "name": "Jugador 5 Brasil",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BRA-07",
+    "number": 47,
+    "team": "Brasil",
+    "type": "player",
+    "name": "Jugador 6 Brasil",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BRA-08",
+    "number": 48,
+    "team": "Brasil",
+    "type": "player",
+    "name": "Jugador 7 Brasil",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BRA-09",
+    "number": 49,
+    "team": "Brasil",
+    "type": "player",
+    "name": "Jugador 8 Brasil",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BRA-10",
+    "number": 50,
+    "team": "Brasil",
+    "type": "player",
+    "name": "Jugador 9 Brasil",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BRA-11",
+    "number": 51,
+    "team": "Brasil",
+    "type": "player",
+    "name": "Jugador 10 Brasil",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BRA-12",
+    "number": 52,
+    "team": "Brasil",
+    "type": "player",
+    "name": "Jugador 11 Brasil",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BRA-13",
+    "number": 53,
+    "team": "Brasil",
+    "type": "team_photo",
+    "name": "Equipo Brasil",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BRA-14",
+    "number": 54,
+    "team": "Brasil",
+    "type": "player",
+    "name": "Jugador 13 Brasil",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BRA-15",
+    "number": 55,
+    "team": "Brasil",
+    "type": "player",
+    "name": "Jugador 14 Brasil",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BRA-16",
+    "number": 56,
+    "team": "Brasil",
+    "type": "player",
+    "name": "Jugador 15 Brasil",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BRA-17",
+    "number": 57,
+    "team": "Brasil",
+    "type": "player",
+    "name": "Jugador 16 Brasil",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BRA-18",
+    "number": 58,
+    "team": "Brasil",
+    "type": "player",
+    "name": "Jugador 17 Brasil",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BRA-19",
+    "number": 59,
+    "team": "Brasil",
+    "type": "player",
+    "name": "Jugador 18 Brasil",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BRA-20",
+    "number": 60,
+    "team": "Brasil",
+    "type": "player",
+    "name": "Jugador 19 Brasil",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ESP-01",
+    "number": 61,
+    "team": "España",
+    "type": "badge",
+    "name": "Escudo España",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ESP-02",
+    "number": 62,
+    "team": "España",
+    "type": "player",
+    "name": "Jugador 1 España",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ESP-03",
+    "number": 63,
+    "team": "España",
+    "type": "player",
+    "name": "Jugador 2 España",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ESP-04",
+    "number": 64,
+    "team": "España",
+    "type": "player",
+    "name": "Jugador 3 España",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ESP-05",
+    "number": 65,
+    "team": "España",
+    "type": "player",
+    "name": "Jugador 4 España",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ESP-06",
+    "number": 66,
+    "team": "España",
+    "type": "player",
+    "name": "Jugador 5 España",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ESP-07",
+    "number": 67,
+    "team": "España",
+    "type": "player",
+    "name": "Jugador 6 España",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ESP-08",
+    "number": 68,
+    "team": "España",
+    "type": "player",
+    "name": "Jugador 7 España",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ESP-09",
+    "number": 69,
+    "team": "España",
+    "type": "player",
+    "name": "Jugador 8 España",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ESP-10",
+    "number": 70,
+    "team": "España",
+    "type": "player",
+    "name": "Jugador 9 España",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ESP-11",
+    "number": 71,
+    "team": "España",
+    "type": "player",
+    "name": "Jugador 10 España",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ESP-12",
+    "number": 72,
+    "team": "España",
+    "type": "player",
+    "name": "Jugador 11 España",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ESP-13",
+    "number": 73,
+    "team": "España",
+    "type": "team_photo",
+    "name": "Equipo España",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ESP-14",
+    "number": 74,
+    "team": "España",
+    "type": "player",
+    "name": "Jugador 13 España",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ESP-15",
+    "number": 75,
+    "team": "España",
+    "type": "player",
+    "name": "Jugador 14 España",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ESP-16",
+    "number": 76,
+    "team": "España",
+    "type": "player",
+    "name": "Jugador 15 España",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ESP-17",
+    "number": 77,
+    "team": "España",
+    "type": "player",
+    "name": "Jugador 16 España",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ESP-18",
+    "number": 78,
+    "team": "España",
+    "type": "player",
+    "name": "Jugador 17 España",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ESP-19",
+    "number": 79,
+    "team": "España",
+    "type": "player",
+    "name": "Jugador 18 España",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ESP-20",
+    "number": 80,
+    "team": "España",
+    "type": "player",
+    "name": "Jugador 19 España",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ALE-01",
+    "number": 81,
+    "team": "Alemania",
+    "type": "badge",
+    "name": "Escudo Alemania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ALE-02",
+    "number": 82,
+    "team": "Alemania",
+    "type": "player",
+    "name": "Jugador 1 Alemania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ALE-03",
+    "number": 83,
+    "team": "Alemania",
+    "type": "player",
+    "name": "Jugador 2 Alemania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ALE-04",
+    "number": 84,
+    "team": "Alemania",
+    "type": "player",
+    "name": "Jugador 3 Alemania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ALE-05",
+    "number": 85,
+    "team": "Alemania",
+    "type": "player",
+    "name": "Jugador 4 Alemania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ALE-06",
+    "number": 86,
+    "team": "Alemania",
+    "type": "player",
+    "name": "Jugador 5 Alemania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ALE-07",
+    "number": 87,
+    "team": "Alemania",
+    "type": "player",
+    "name": "Jugador 6 Alemania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ALE-08",
+    "number": 88,
+    "team": "Alemania",
+    "type": "player",
+    "name": "Jugador 7 Alemania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ALE-09",
+    "number": 89,
+    "team": "Alemania",
+    "type": "player",
+    "name": "Jugador 8 Alemania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ALE-10",
+    "number": 90,
+    "team": "Alemania",
+    "type": "player",
+    "name": "Jugador 9 Alemania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ALE-11",
+    "number": 91,
+    "team": "Alemania",
+    "type": "player",
+    "name": "Jugador 10 Alemania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ALE-12",
+    "number": 92,
+    "team": "Alemania",
+    "type": "player",
+    "name": "Jugador 11 Alemania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ALE-13",
+    "number": 93,
+    "team": "Alemania",
+    "type": "team_photo",
+    "name": "Equipo Alemania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ALE-14",
+    "number": 94,
+    "team": "Alemania",
+    "type": "player",
+    "name": "Jugador 13 Alemania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ALE-15",
+    "number": 95,
+    "team": "Alemania",
+    "type": "player",
+    "name": "Jugador 14 Alemania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ALE-16",
+    "number": 96,
+    "team": "Alemania",
+    "type": "player",
+    "name": "Jugador 15 Alemania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ALE-17",
+    "number": 97,
+    "team": "Alemania",
+    "type": "player",
+    "name": "Jugador 16 Alemania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ALE-18",
+    "number": 98,
+    "team": "Alemania",
+    "type": "player",
+    "name": "Jugador 17 Alemania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ALE-19",
+    "number": 99,
+    "team": "Alemania",
+    "type": "player",
+    "name": "Jugador 18 Alemania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ALE-20",
+    "number": 100,
+    "team": "Alemania",
+    "type": "player",
+    "name": "Jugador 19 Alemania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ING-01",
+    "number": 101,
+    "team": "Inglaterra",
+    "type": "badge",
+    "name": "Escudo Inglaterra",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ING-02",
+    "number": 102,
+    "team": "Inglaterra",
+    "type": "player",
+    "name": "Jugador 1 Inglaterra",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ING-03",
+    "number": 103,
+    "team": "Inglaterra",
+    "type": "player",
+    "name": "Jugador 2 Inglaterra",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ING-04",
+    "number": 104,
+    "team": "Inglaterra",
+    "type": "player",
+    "name": "Jugador 3 Inglaterra",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ING-05",
+    "number": 105,
+    "team": "Inglaterra",
+    "type": "player",
+    "name": "Jugador 4 Inglaterra",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ING-06",
+    "number": 106,
+    "team": "Inglaterra",
+    "type": "player",
+    "name": "Jugador 5 Inglaterra",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ING-07",
+    "number": 107,
+    "team": "Inglaterra",
+    "type": "player",
+    "name": "Jugador 6 Inglaterra",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ING-08",
+    "number": 108,
+    "team": "Inglaterra",
+    "type": "player",
+    "name": "Jugador 7 Inglaterra",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ING-09",
+    "number": 109,
+    "team": "Inglaterra",
+    "type": "player",
+    "name": "Jugador 8 Inglaterra",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ING-10",
+    "number": 110,
+    "team": "Inglaterra",
+    "type": "player",
+    "name": "Jugador 9 Inglaterra",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ING-11",
+    "number": 111,
+    "team": "Inglaterra",
+    "type": "player",
+    "name": "Jugador 10 Inglaterra",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ING-12",
+    "number": 112,
+    "team": "Inglaterra",
+    "type": "player",
+    "name": "Jugador 11 Inglaterra",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ING-13",
+    "number": 113,
+    "team": "Inglaterra",
+    "type": "team_photo",
+    "name": "Equipo Inglaterra",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ING-14",
+    "number": 114,
+    "team": "Inglaterra",
+    "type": "player",
+    "name": "Jugador 13 Inglaterra",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ING-15",
+    "number": 115,
+    "team": "Inglaterra",
+    "type": "player",
+    "name": "Jugador 14 Inglaterra",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ING-16",
+    "number": 116,
+    "team": "Inglaterra",
+    "type": "player",
+    "name": "Jugador 15 Inglaterra",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ING-17",
+    "number": 117,
+    "team": "Inglaterra",
+    "type": "player",
+    "name": "Jugador 16 Inglaterra",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ING-18",
+    "number": 118,
+    "team": "Inglaterra",
+    "type": "player",
+    "name": "Jugador 17 Inglaterra",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ING-19",
+    "number": 119,
+    "team": "Inglaterra",
+    "type": "player",
+    "name": "Jugador 18 Inglaterra",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ING-20",
+    "number": 120,
+    "team": "Inglaterra",
+    "type": "player",
+    "name": "Jugador 19 Inglaterra",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POR-01",
+    "number": 121,
+    "team": "Portugal",
+    "type": "badge",
+    "name": "Escudo Portugal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POR-02",
+    "number": 122,
+    "team": "Portugal",
+    "type": "player",
+    "name": "Jugador 1 Portugal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POR-03",
+    "number": 123,
+    "team": "Portugal",
+    "type": "player",
+    "name": "Jugador 2 Portugal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POR-04",
+    "number": 124,
+    "team": "Portugal",
+    "type": "player",
+    "name": "Jugador 3 Portugal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POR-05",
+    "number": 125,
+    "team": "Portugal",
+    "type": "player",
+    "name": "Jugador 4 Portugal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POR-06",
+    "number": 126,
+    "team": "Portugal",
+    "type": "player",
+    "name": "Jugador 5 Portugal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POR-07",
+    "number": 127,
+    "team": "Portugal",
+    "type": "player",
+    "name": "Jugador 6 Portugal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POR-08",
+    "number": 128,
+    "team": "Portugal",
+    "type": "player",
+    "name": "Jugador 7 Portugal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POR-09",
+    "number": 129,
+    "team": "Portugal",
+    "type": "player",
+    "name": "Jugador 8 Portugal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POR-10",
+    "number": 130,
+    "team": "Portugal",
+    "type": "player",
+    "name": "Jugador 9 Portugal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POR-11",
+    "number": 131,
+    "team": "Portugal",
+    "type": "player",
+    "name": "Jugador 10 Portugal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POR-12",
+    "number": 132,
+    "team": "Portugal",
+    "type": "player",
+    "name": "Jugador 11 Portugal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POR-13",
+    "number": 133,
+    "team": "Portugal",
+    "type": "team_photo",
+    "name": "Equipo Portugal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POR-14",
+    "number": 134,
+    "team": "Portugal",
+    "type": "player",
+    "name": "Jugador 13 Portugal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POR-15",
+    "number": 135,
+    "team": "Portugal",
+    "type": "player",
+    "name": "Jugador 14 Portugal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POR-16",
+    "number": 136,
+    "team": "Portugal",
+    "type": "player",
+    "name": "Jugador 15 Portugal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POR-17",
+    "number": 137,
+    "team": "Portugal",
+    "type": "player",
+    "name": "Jugador 16 Portugal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POR-18",
+    "number": 138,
+    "team": "Portugal",
+    "type": "player",
+    "name": "Jugador 17 Portugal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POR-19",
+    "number": 139,
+    "team": "Portugal",
+    "type": "player",
+    "name": "Jugador 18 Portugal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POR-20",
+    "number": 140,
+    "team": "Portugal",
+    "type": "player",
+    "name": "Jugador 19 Portugal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ITA-01",
+    "number": 141,
+    "team": "Italia",
+    "type": "badge",
+    "name": "Escudo Italia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ITA-02",
+    "number": 142,
+    "team": "Italia",
+    "type": "player",
+    "name": "Jugador 1 Italia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ITA-03",
+    "number": 143,
+    "team": "Italia",
+    "type": "player",
+    "name": "Jugador 2 Italia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ITA-04",
+    "number": 144,
+    "team": "Italia",
+    "type": "player",
+    "name": "Jugador 3 Italia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ITA-05",
+    "number": 145,
+    "team": "Italia",
+    "type": "player",
+    "name": "Jugador 4 Italia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ITA-06",
+    "number": 146,
+    "team": "Italia",
+    "type": "player",
+    "name": "Jugador 5 Italia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ITA-07",
+    "number": 147,
+    "team": "Italia",
+    "type": "player",
+    "name": "Jugador 6 Italia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ITA-08",
+    "number": 148,
+    "team": "Italia",
+    "type": "player",
+    "name": "Jugador 7 Italia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ITA-09",
+    "number": 149,
+    "team": "Italia",
+    "type": "player",
+    "name": "Jugador 8 Italia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ITA-10",
+    "number": 150,
+    "team": "Italia",
+    "type": "player",
+    "name": "Jugador 9 Italia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ITA-11",
+    "number": 151,
+    "team": "Italia",
+    "type": "player",
+    "name": "Jugador 10 Italia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ITA-12",
+    "number": 152,
+    "team": "Italia",
+    "type": "player",
+    "name": "Jugador 11 Italia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ITA-13",
+    "number": 153,
+    "team": "Italia",
+    "type": "team_photo",
+    "name": "Equipo Italia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ITA-14",
+    "number": 154,
+    "team": "Italia",
+    "type": "player",
+    "name": "Jugador 13 Italia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ITA-15",
+    "number": 155,
+    "team": "Italia",
+    "type": "player",
+    "name": "Jugador 14 Italia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ITA-16",
+    "number": 156,
+    "team": "Italia",
+    "type": "player",
+    "name": "Jugador 15 Italia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ITA-17",
+    "number": 157,
+    "team": "Italia",
+    "type": "player",
+    "name": "Jugador 16 Italia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ITA-18",
+    "number": 158,
+    "team": "Italia",
+    "type": "player",
+    "name": "Jugador 17 Italia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ITA-19",
+    "number": 159,
+    "team": "Italia",
+    "type": "player",
+    "name": "Jugador 18 Italia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ITA-20",
+    "number": 160,
+    "team": "Italia",
+    "type": "player",
+    "name": "Jugador 19 Italia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAÍ-01",
+    "number": 161,
+    "team": "Países Bajos",
+    "type": "badge",
+    "name": "Escudo Países Bajos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAÍ-02",
+    "number": 162,
+    "team": "Países Bajos",
+    "type": "player",
+    "name": "Jugador 1 Países Bajos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAÍ-03",
+    "number": 163,
+    "team": "Países Bajos",
+    "type": "player",
+    "name": "Jugador 2 Países Bajos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAÍ-04",
+    "number": 164,
+    "team": "Países Bajos",
+    "type": "player",
+    "name": "Jugador 3 Países Bajos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAÍ-05",
+    "number": 165,
+    "team": "Países Bajos",
+    "type": "player",
+    "name": "Jugador 4 Países Bajos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAÍ-06",
+    "number": 166,
+    "team": "Países Bajos",
+    "type": "player",
+    "name": "Jugador 5 Países Bajos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAÍ-07",
+    "number": 167,
+    "team": "Países Bajos",
+    "type": "player",
+    "name": "Jugador 6 Países Bajos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAÍ-08",
+    "number": 168,
+    "team": "Países Bajos",
+    "type": "player",
+    "name": "Jugador 7 Países Bajos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAÍ-09",
+    "number": 169,
+    "team": "Países Bajos",
+    "type": "player",
+    "name": "Jugador 8 Países Bajos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAÍ-10",
+    "number": 170,
+    "team": "Países Bajos",
+    "type": "player",
+    "name": "Jugador 9 Países Bajos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAÍ-11",
+    "number": 171,
+    "team": "Países Bajos",
+    "type": "player",
+    "name": "Jugador 10 Países Bajos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAÍ-12",
+    "number": 172,
+    "team": "Países Bajos",
+    "type": "player",
+    "name": "Jugador 11 Países Bajos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAÍ-13",
+    "number": 173,
+    "team": "Países Bajos",
+    "type": "team_photo",
+    "name": "Equipo Países Bajos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAÍ-14",
+    "number": 174,
+    "team": "Países Bajos",
+    "type": "player",
+    "name": "Jugador 13 Países Bajos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAÍ-15",
+    "number": 175,
+    "team": "Países Bajos",
+    "type": "player",
+    "name": "Jugador 14 Países Bajos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAÍ-16",
+    "number": 176,
+    "team": "Países Bajos",
+    "type": "player",
+    "name": "Jugador 15 Países Bajos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAÍ-17",
+    "number": 177,
+    "team": "Países Bajos",
+    "type": "player",
+    "name": "Jugador 16 Países Bajos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAÍ-18",
+    "number": 178,
+    "team": "Países Bajos",
+    "type": "player",
+    "name": "Jugador 17 Países Bajos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAÍ-19",
+    "number": 179,
+    "team": "Países Bajos",
+    "type": "player",
+    "name": "Jugador 18 Países Bajos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAÍ-20",
+    "number": 180,
+    "team": "Países Bajos",
+    "type": "player",
+    "name": "Jugador 19 Países Bajos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BÉL-01",
+    "number": 181,
+    "team": "Bélgica",
+    "type": "badge",
+    "name": "Escudo Bélgica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BÉL-02",
+    "number": 182,
+    "team": "Bélgica",
+    "type": "player",
+    "name": "Jugador 1 Bélgica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BÉL-03",
+    "number": 183,
+    "team": "Bélgica",
+    "type": "player",
+    "name": "Jugador 2 Bélgica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BÉL-04",
+    "number": 184,
+    "team": "Bélgica",
+    "type": "player",
+    "name": "Jugador 3 Bélgica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BÉL-05",
+    "number": 185,
+    "team": "Bélgica",
+    "type": "player",
+    "name": "Jugador 4 Bélgica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BÉL-06",
+    "number": 186,
+    "team": "Bélgica",
+    "type": "player",
+    "name": "Jugador 5 Bélgica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BÉL-07",
+    "number": 187,
+    "team": "Bélgica",
+    "type": "player",
+    "name": "Jugador 6 Bélgica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BÉL-08",
+    "number": 188,
+    "team": "Bélgica",
+    "type": "player",
+    "name": "Jugador 7 Bélgica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BÉL-09",
+    "number": 189,
+    "team": "Bélgica",
+    "type": "player",
+    "name": "Jugador 8 Bélgica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BÉL-10",
+    "number": 190,
+    "team": "Bélgica",
+    "type": "player",
+    "name": "Jugador 9 Bélgica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BÉL-11",
+    "number": 191,
+    "team": "Bélgica",
+    "type": "player",
+    "name": "Jugador 10 Bélgica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BÉL-12",
+    "number": 192,
+    "team": "Bélgica",
+    "type": "player",
+    "name": "Jugador 11 Bélgica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BÉL-13",
+    "number": 193,
+    "team": "Bélgica",
+    "type": "team_photo",
+    "name": "Equipo Bélgica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BÉL-14",
+    "number": 194,
+    "team": "Bélgica",
+    "type": "player",
+    "name": "Jugador 13 Bélgica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BÉL-15",
+    "number": 195,
+    "team": "Bélgica",
+    "type": "player",
+    "name": "Jugador 14 Bélgica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BÉL-16",
+    "number": 196,
+    "team": "Bélgica",
+    "type": "player",
+    "name": "Jugador 15 Bélgica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BÉL-17",
+    "number": 197,
+    "team": "Bélgica",
+    "type": "player",
+    "name": "Jugador 16 Bélgica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BÉL-18",
+    "number": 198,
+    "team": "Bélgica",
+    "type": "player",
+    "name": "Jugador 17 Bélgica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BÉL-19",
+    "number": 199,
+    "team": "Bélgica",
+    "type": "player",
+    "name": "Jugador 18 Bélgica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "BÉL-20",
+    "number": 200,
+    "team": "Bélgica",
+    "type": "player",
+    "name": "Jugador 19 Bélgica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CRO-01",
+    "number": 201,
+    "team": "Croacia",
+    "type": "badge",
+    "name": "Escudo Croacia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CRO-02",
+    "number": 202,
+    "team": "Croacia",
+    "type": "player",
+    "name": "Jugador 1 Croacia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CRO-03",
+    "number": 203,
+    "team": "Croacia",
+    "type": "player",
+    "name": "Jugador 2 Croacia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CRO-04",
+    "number": 204,
+    "team": "Croacia",
+    "type": "player",
+    "name": "Jugador 3 Croacia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CRO-05",
+    "number": 205,
+    "team": "Croacia",
+    "type": "player",
+    "name": "Jugador 4 Croacia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CRO-06",
+    "number": 206,
+    "team": "Croacia",
+    "type": "player",
+    "name": "Jugador 5 Croacia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CRO-07",
+    "number": 207,
+    "team": "Croacia",
+    "type": "player",
+    "name": "Jugador 6 Croacia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CRO-08",
+    "number": 208,
+    "team": "Croacia",
+    "type": "player",
+    "name": "Jugador 7 Croacia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CRO-09",
+    "number": 209,
+    "team": "Croacia",
+    "type": "player",
+    "name": "Jugador 8 Croacia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CRO-10",
+    "number": 210,
+    "team": "Croacia",
+    "type": "player",
+    "name": "Jugador 9 Croacia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CRO-11",
+    "number": 211,
+    "team": "Croacia",
+    "type": "player",
+    "name": "Jugador 10 Croacia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CRO-12",
+    "number": 212,
+    "team": "Croacia",
+    "type": "player",
+    "name": "Jugador 11 Croacia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CRO-13",
+    "number": 213,
+    "team": "Croacia",
+    "type": "team_photo",
+    "name": "Equipo Croacia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CRO-14",
+    "number": 214,
+    "team": "Croacia",
+    "type": "player",
+    "name": "Jugador 13 Croacia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CRO-15",
+    "number": 215,
+    "team": "Croacia",
+    "type": "player",
+    "name": "Jugador 14 Croacia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CRO-16",
+    "number": 216,
+    "team": "Croacia",
+    "type": "player",
+    "name": "Jugador 15 Croacia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CRO-17",
+    "number": 217,
+    "team": "Croacia",
+    "type": "player",
+    "name": "Jugador 16 Croacia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CRO-18",
+    "number": 218,
+    "team": "Croacia",
+    "type": "player",
+    "name": "Jugador 17 Croacia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CRO-19",
+    "number": 219,
+    "team": "Croacia",
+    "type": "player",
+    "name": "Jugador 18 Croacia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CRO-20",
+    "number": 220,
+    "team": "Croacia",
+    "type": "player",
+    "name": "Jugador 19 Croacia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "URU-01",
+    "number": 221,
+    "team": "Uruguay",
+    "type": "badge",
+    "name": "Escudo Uruguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "URU-02",
+    "number": 222,
+    "team": "Uruguay",
+    "type": "player",
+    "name": "Jugador 1 Uruguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "URU-03",
+    "number": 223,
+    "team": "Uruguay",
+    "type": "player",
+    "name": "Jugador 2 Uruguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "URU-04",
+    "number": 224,
+    "team": "Uruguay",
+    "type": "player",
+    "name": "Jugador 3 Uruguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "URU-05",
+    "number": 225,
+    "team": "Uruguay",
+    "type": "player",
+    "name": "Jugador 4 Uruguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "URU-06",
+    "number": 226,
+    "team": "Uruguay",
+    "type": "player",
+    "name": "Jugador 5 Uruguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "URU-07",
+    "number": 227,
+    "team": "Uruguay",
+    "type": "player",
+    "name": "Jugador 6 Uruguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "URU-08",
+    "number": 228,
+    "team": "Uruguay",
+    "type": "player",
+    "name": "Jugador 7 Uruguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "URU-09",
+    "number": 229,
+    "team": "Uruguay",
+    "type": "player",
+    "name": "Jugador 8 Uruguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "URU-10",
+    "number": 230,
+    "team": "Uruguay",
+    "type": "player",
+    "name": "Jugador 9 Uruguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "URU-11",
+    "number": 231,
+    "team": "Uruguay",
+    "type": "player",
+    "name": "Jugador 10 Uruguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "URU-12",
+    "number": 232,
+    "team": "Uruguay",
+    "type": "player",
+    "name": "Jugador 11 Uruguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "URU-13",
+    "number": 233,
+    "team": "Uruguay",
+    "type": "team_photo",
+    "name": "Equipo Uruguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "URU-14",
+    "number": 234,
+    "team": "Uruguay",
+    "type": "player",
+    "name": "Jugador 13 Uruguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "URU-15",
+    "number": 235,
+    "team": "Uruguay",
+    "type": "player",
+    "name": "Jugador 14 Uruguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "URU-16",
+    "number": 236,
+    "team": "Uruguay",
+    "type": "player",
+    "name": "Jugador 15 Uruguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "URU-17",
+    "number": 237,
+    "team": "Uruguay",
+    "type": "player",
+    "name": "Jugador 16 Uruguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "URU-18",
+    "number": 238,
+    "team": "Uruguay",
+    "type": "player",
+    "name": "Jugador 17 Uruguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "URU-19",
+    "number": 239,
+    "team": "Uruguay",
+    "type": "player",
+    "name": "Jugador 18 Uruguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "URU-20",
+    "number": 240,
+    "team": "Uruguay",
+    "type": "player",
+    "name": "Jugador 19 Uruguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MÉX-01",
+    "number": 241,
+    "team": "México",
+    "type": "badge",
+    "name": "Escudo México",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MÉX-02",
+    "number": 242,
+    "team": "México",
+    "type": "player",
+    "name": "Jugador 1 México",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MÉX-03",
+    "number": 243,
+    "team": "México",
+    "type": "player",
+    "name": "Jugador 2 México",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MÉX-04",
+    "number": 244,
+    "team": "México",
+    "type": "player",
+    "name": "Jugador 3 México",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MÉX-05",
+    "number": 245,
+    "team": "México",
+    "type": "player",
+    "name": "Jugador 4 México",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MÉX-06",
+    "number": 246,
+    "team": "México",
+    "type": "player",
+    "name": "Jugador 5 México",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MÉX-07",
+    "number": 247,
+    "team": "México",
+    "type": "player",
+    "name": "Jugador 6 México",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MÉX-08",
+    "number": 248,
+    "team": "México",
+    "type": "player",
+    "name": "Jugador 7 México",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MÉX-09",
+    "number": 249,
+    "team": "México",
+    "type": "player",
+    "name": "Jugador 8 México",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MÉX-10",
+    "number": 250,
+    "team": "México",
+    "type": "player",
+    "name": "Jugador 9 México",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MÉX-11",
+    "number": 251,
+    "team": "México",
+    "type": "player",
+    "name": "Jugador 10 México",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MÉX-12",
+    "number": 252,
+    "team": "México",
+    "type": "player",
+    "name": "Jugador 11 México",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MÉX-13",
+    "number": 253,
+    "team": "México",
+    "type": "team_photo",
+    "name": "Equipo México",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MÉX-14",
+    "number": 254,
+    "team": "México",
+    "type": "player",
+    "name": "Jugador 13 México",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MÉX-15",
+    "number": 255,
+    "team": "México",
+    "type": "player",
+    "name": "Jugador 14 México",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MÉX-16",
+    "number": 256,
+    "team": "México",
+    "type": "player",
+    "name": "Jugador 15 México",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MÉX-17",
+    "number": 257,
+    "team": "México",
+    "type": "player",
+    "name": "Jugador 16 México",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MÉX-18",
+    "number": 258,
+    "team": "México",
+    "type": "player",
+    "name": "Jugador 17 México",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MÉX-19",
+    "number": 259,
+    "team": "México",
+    "type": "player",
+    "name": "Jugador 18 México",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MÉX-20",
+    "number": 260,
+    "team": "México",
+    "type": "player",
+    "name": "Jugador 19 México",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EST-01",
+    "number": 261,
+    "team": "Estados Unidos",
+    "type": "badge",
+    "name": "Escudo Estados Unidos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EST-02",
+    "number": 262,
+    "team": "Estados Unidos",
+    "type": "player",
+    "name": "Jugador 1 Estados Unidos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EST-03",
+    "number": 263,
+    "team": "Estados Unidos",
+    "type": "player",
+    "name": "Jugador 2 Estados Unidos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EST-04",
+    "number": 264,
+    "team": "Estados Unidos",
+    "type": "player",
+    "name": "Jugador 3 Estados Unidos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EST-05",
+    "number": 265,
+    "team": "Estados Unidos",
+    "type": "player",
+    "name": "Jugador 4 Estados Unidos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EST-06",
+    "number": 266,
+    "team": "Estados Unidos",
+    "type": "player",
+    "name": "Jugador 5 Estados Unidos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EST-07",
+    "number": 267,
+    "team": "Estados Unidos",
+    "type": "player",
+    "name": "Jugador 6 Estados Unidos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EST-08",
+    "number": 268,
+    "team": "Estados Unidos",
+    "type": "player",
+    "name": "Jugador 7 Estados Unidos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EST-09",
+    "number": 269,
+    "team": "Estados Unidos",
+    "type": "player",
+    "name": "Jugador 8 Estados Unidos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EST-10",
+    "number": 270,
+    "team": "Estados Unidos",
+    "type": "player",
+    "name": "Jugador 9 Estados Unidos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EST-11",
+    "number": 271,
+    "team": "Estados Unidos",
+    "type": "player",
+    "name": "Jugador 10 Estados Unidos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EST-12",
+    "number": 272,
+    "team": "Estados Unidos",
+    "type": "player",
+    "name": "Jugador 11 Estados Unidos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EST-13",
+    "number": 273,
+    "team": "Estados Unidos",
+    "type": "team_photo",
+    "name": "Equipo Estados Unidos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EST-14",
+    "number": 274,
+    "team": "Estados Unidos",
+    "type": "player",
+    "name": "Jugador 13 Estados Unidos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EST-15",
+    "number": 275,
+    "team": "Estados Unidos",
+    "type": "player",
+    "name": "Jugador 14 Estados Unidos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EST-16",
+    "number": 276,
+    "team": "Estados Unidos",
+    "type": "player",
+    "name": "Jugador 15 Estados Unidos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EST-17",
+    "number": 277,
+    "team": "Estados Unidos",
+    "type": "player",
+    "name": "Jugador 16 Estados Unidos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EST-18",
+    "number": 278,
+    "team": "Estados Unidos",
+    "type": "player",
+    "name": "Jugador 17 Estados Unidos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EST-19",
+    "number": 279,
+    "team": "Estados Unidos",
+    "type": "player",
+    "name": "Jugador 18 Estados Unidos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EST-20",
+    "number": 280,
+    "team": "Estados Unidos",
+    "type": "player",
+    "name": "Jugador 19 Estados Unidos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAN-01",
+    "number": 281,
+    "team": "Canadá",
+    "type": "badge",
+    "name": "Escudo Canadá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAN-02",
+    "number": 282,
+    "team": "Canadá",
+    "type": "player",
+    "name": "Jugador 1 Canadá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAN-03",
+    "number": 283,
+    "team": "Canadá",
+    "type": "player",
+    "name": "Jugador 2 Canadá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAN-04",
+    "number": 284,
+    "team": "Canadá",
+    "type": "player",
+    "name": "Jugador 3 Canadá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAN-05",
+    "number": 285,
+    "team": "Canadá",
+    "type": "player",
+    "name": "Jugador 4 Canadá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAN-06",
+    "number": 286,
+    "team": "Canadá",
+    "type": "player",
+    "name": "Jugador 5 Canadá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAN-07",
+    "number": 287,
+    "team": "Canadá",
+    "type": "player",
+    "name": "Jugador 6 Canadá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAN-08",
+    "number": 288,
+    "team": "Canadá",
+    "type": "player",
+    "name": "Jugador 7 Canadá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAN-09",
+    "number": 289,
+    "team": "Canadá",
+    "type": "player",
+    "name": "Jugador 8 Canadá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAN-10",
+    "number": 290,
+    "team": "Canadá",
+    "type": "player",
+    "name": "Jugador 9 Canadá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAN-11",
+    "number": 291,
+    "team": "Canadá",
+    "type": "player",
+    "name": "Jugador 10 Canadá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAN-12",
+    "number": 292,
+    "team": "Canadá",
+    "type": "player",
+    "name": "Jugador 11 Canadá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAN-13",
+    "number": 293,
+    "team": "Canadá",
+    "type": "team_photo",
+    "name": "Equipo Canadá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAN-14",
+    "number": 294,
+    "team": "Canadá",
+    "type": "player",
+    "name": "Jugador 13 Canadá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAN-15",
+    "number": 295,
+    "team": "Canadá",
+    "type": "player",
+    "name": "Jugador 14 Canadá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAN-16",
+    "number": 296,
+    "team": "Canadá",
+    "type": "player",
+    "name": "Jugador 15 Canadá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAN-17",
+    "number": 297,
+    "team": "Canadá",
+    "type": "player",
+    "name": "Jugador 16 Canadá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAN-18",
+    "number": 298,
+    "team": "Canadá",
+    "type": "player",
+    "name": "Jugador 17 Canadá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAN-19",
+    "number": 299,
+    "team": "Canadá",
+    "type": "player",
+    "name": "Jugador 18 Canadá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAN-20",
+    "number": 300,
+    "team": "Canadá",
+    "type": "player",
+    "name": "Jugador 19 Canadá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "JAP-01",
+    "number": 301,
+    "team": "Japón",
+    "type": "badge",
+    "name": "Escudo Japón",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "JAP-02",
+    "number": 302,
+    "team": "Japón",
+    "type": "player",
+    "name": "Jugador 1 Japón",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "JAP-03",
+    "number": 303,
+    "team": "Japón",
+    "type": "player",
+    "name": "Jugador 2 Japón",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "JAP-04",
+    "number": 304,
+    "team": "Japón",
+    "type": "player",
+    "name": "Jugador 3 Japón",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "JAP-05",
+    "number": 305,
+    "team": "Japón",
+    "type": "player",
+    "name": "Jugador 4 Japón",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "JAP-06",
+    "number": 306,
+    "team": "Japón",
+    "type": "player",
+    "name": "Jugador 5 Japón",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "JAP-07",
+    "number": 307,
+    "team": "Japón",
+    "type": "player",
+    "name": "Jugador 6 Japón",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "JAP-08",
+    "number": 308,
+    "team": "Japón",
+    "type": "player",
+    "name": "Jugador 7 Japón",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "JAP-09",
+    "number": 309,
+    "team": "Japón",
+    "type": "player",
+    "name": "Jugador 8 Japón",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "JAP-10",
+    "number": 310,
+    "team": "Japón",
+    "type": "player",
+    "name": "Jugador 9 Japón",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "JAP-11",
+    "number": 311,
+    "team": "Japón",
+    "type": "player",
+    "name": "Jugador 10 Japón",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "JAP-12",
+    "number": 312,
+    "team": "Japón",
+    "type": "player",
+    "name": "Jugador 11 Japón",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "JAP-13",
+    "number": 313,
+    "team": "Japón",
+    "type": "team_photo",
+    "name": "Equipo Japón",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "JAP-14",
+    "number": 314,
+    "team": "Japón",
+    "type": "player",
+    "name": "Jugador 13 Japón",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "JAP-15",
+    "number": 315,
+    "team": "Japón",
+    "type": "player",
+    "name": "Jugador 14 Japón",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "JAP-16",
+    "number": 316,
+    "team": "Japón",
+    "type": "player",
+    "name": "Jugador 15 Japón",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "JAP-17",
+    "number": 317,
+    "team": "Japón",
+    "type": "player",
+    "name": "Jugador 16 Japón",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "JAP-18",
+    "number": 318,
+    "team": "Japón",
+    "type": "player",
+    "name": "Jugador 17 Japón",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "JAP-19",
+    "number": 319,
+    "team": "Japón",
+    "type": "player",
+    "name": "Jugador 18 Japón",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "JAP-20",
+    "number": 320,
+    "team": "Japón",
+    "type": "player",
+    "name": "Jugador 19 Japón",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COR-01",
+    "number": 321,
+    "team": "Corea del Sur",
+    "type": "badge",
+    "name": "Escudo Corea del Sur",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COR-02",
+    "number": 322,
+    "team": "Corea del Sur",
+    "type": "player",
+    "name": "Jugador 1 Corea del Sur",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COR-03",
+    "number": 323,
+    "team": "Corea del Sur",
+    "type": "player",
+    "name": "Jugador 2 Corea del Sur",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COR-04",
+    "number": 324,
+    "team": "Corea del Sur",
+    "type": "player",
+    "name": "Jugador 3 Corea del Sur",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COR-05",
+    "number": 325,
+    "team": "Corea del Sur",
+    "type": "player",
+    "name": "Jugador 4 Corea del Sur",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COR-06",
+    "number": 326,
+    "team": "Corea del Sur",
+    "type": "player",
+    "name": "Jugador 5 Corea del Sur",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COR-07",
+    "number": 327,
+    "team": "Corea del Sur",
+    "type": "player",
+    "name": "Jugador 6 Corea del Sur",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COR-08",
+    "number": 328,
+    "team": "Corea del Sur",
+    "type": "player",
+    "name": "Jugador 7 Corea del Sur",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COR-09",
+    "number": 329,
+    "team": "Corea del Sur",
+    "type": "player",
+    "name": "Jugador 8 Corea del Sur",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COR-10",
+    "number": 330,
+    "team": "Corea del Sur",
+    "type": "player",
+    "name": "Jugador 9 Corea del Sur",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COR-11",
+    "number": 331,
+    "team": "Corea del Sur",
+    "type": "player",
+    "name": "Jugador 10 Corea del Sur",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COR-12",
+    "number": 332,
+    "team": "Corea del Sur",
+    "type": "player",
+    "name": "Jugador 11 Corea del Sur",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COR-13",
+    "number": 333,
+    "team": "Corea del Sur",
+    "type": "team_photo",
+    "name": "Equipo Corea del Sur",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COR-14",
+    "number": 334,
+    "team": "Corea del Sur",
+    "type": "player",
+    "name": "Jugador 13 Corea del Sur",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COR-15",
+    "number": 335,
+    "team": "Corea del Sur",
+    "type": "player",
+    "name": "Jugador 14 Corea del Sur",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COR-16",
+    "number": 336,
+    "team": "Corea del Sur",
+    "type": "player",
+    "name": "Jugador 15 Corea del Sur",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COR-17",
+    "number": 337,
+    "team": "Corea del Sur",
+    "type": "player",
+    "name": "Jugador 16 Corea del Sur",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COR-18",
+    "number": 338,
+    "team": "Corea del Sur",
+    "type": "player",
+    "name": "Jugador 17 Corea del Sur",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COR-19",
+    "number": 339,
+    "team": "Corea del Sur",
+    "type": "player",
+    "name": "Jugador 18 Corea del Sur",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COR-20",
+    "number": 340,
+    "team": "Corea del Sur",
+    "type": "player",
+    "name": "Jugador 19 Corea del Sur",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "AUS-01",
+    "number": 341,
+    "team": "Australia",
+    "type": "badge",
+    "name": "Escudo Australia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "AUS-02",
+    "number": 342,
+    "team": "Australia",
+    "type": "player",
+    "name": "Jugador 1 Australia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "AUS-03",
+    "number": 343,
+    "team": "Australia",
+    "type": "player",
+    "name": "Jugador 2 Australia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "AUS-04",
+    "number": 344,
+    "team": "Australia",
+    "type": "player",
+    "name": "Jugador 3 Australia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "AUS-05",
+    "number": 345,
+    "team": "Australia",
+    "type": "player",
+    "name": "Jugador 4 Australia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "AUS-06",
+    "number": 346,
+    "team": "Australia",
+    "type": "player",
+    "name": "Jugador 5 Australia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "AUS-07",
+    "number": 347,
+    "team": "Australia",
+    "type": "player",
+    "name": "Jugador 6 Australia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "AUS-08",
+    "number": 348,
+    "team": "Australia",
+    "type": "player",
+    "name": "Jugador 7 Australia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "AUS-09",
+    "number": 349,
+    "team": "Australia",
+    "type": "player",
+    "name": "Jugador 8 Australia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "AUS-10",
+    "number": 350,
+    "team": "Australia",
+    "type": "player",
+    "name": "Jugador 9 Australia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "AUS-11",
+    "number": 351,
+    "team": "Australia",
+    "type": "player",
+    "name": "Jugador 10 Australia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "AUS-12",
+    "number": 352,
+    "team": "Australia",
+    "type": "player",
+    "name": "Jugador 11 Australia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "AUS-13",
+    "number": 353,
+    "team": "Australia",
+    "type": "team_photo",
+    "name": "Equipo Australia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "AUS-14",
+    "number": 354,
+    "team": "Australia",
+    "type": "player",
+    "name": "Jugador 13 Australia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "AUS-15",
+    "number": 355,
+    "team": "Australia",
+    "type": "player",
+    "name": "Jugador 14 Australia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "AUS-16",
+    "number": 356,
+    "team": "Australia",
+    "type": "player",
+    "name": "Jugador 15 Australia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "AUS-17",
+    "number": 357,
+    "team": "Australia",
+    "type": "player",
+    "name": "Jugador 16 Australia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "AUS-18",
+    "number": 358,
+    "team": "Australia",
+    "type": "player",
+    "name": "Jugador 17 Australia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "AUS-19",
+    "number": 359,
+    "team": "Australia",
+    "type": "player",
+    "name": "Jugador 18 Australia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "AUS-20",
+    "number": 360,
+    "team": "Australia",
+    "type": "player",
+    "name": "Jugador 19 Australia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MAR-01",
+    "number": 361,
+    "team": "Marruecos",
+    "type": "badge",
+    "name": "Escudo Marruecos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MAR-02",
+    "number": 362,
+    "team": "Marruecos",
+    "type": "player",
+    "name": "Jugador 1 Marruecos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MAR-03",
+    "number": 363,
+    "team": "Marruecos",
+    "type": "player",
+    "name": "Jugador 2 Marruecos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MAR-04",
+    "number": 364,
+    "team": "Marruecos",
+    "type": "player",
+    "name": "Jugador 3 Marruecos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MAR-05",
+    "number": 365,
+    "team": "Marruecos",
+    "type": "player",
+    "name": "Jugador 4 Marruecos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MAR-06",
+    "number": 366,
+    "team": "Marruecos",
+    "type": "player",
+    "name": "Jugador 5 Marruecos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MAR-07",
+    "number": 367,
+    "team": "Marruecos",
+    "type": "player",
+    "name": "Jugador 6 Marruecos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MAR-08",
+    "number": 368,
+    "team": "Marruecos",
+    "type": "player",
+    "name": "Jugador 7 Marruecos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MAR-09",
+    "number": 369,
+    "team": "Marruecos",
+    "type": "player",
+    "name": "Jugador 8 Marruecos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MAR-10",
+    "number": 370,
+    "team": "Marruecos",
+    "type": "player",
+    "name": "Jugador 9 Marruecos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MAR-11",
+    "number": 371,
+    "team": "Marruecos",
+    "type": "player",
+    "name": "Jugador 10 Marruecos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MAR-12",
+    "number": 372,
+    "team": "Marruecos",
+    "type": "player",
+    "name": "Jugador 11 Marruecos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MAR-13",
+    "number": 373,
+    "team": "Marruecos",
+    "type": "team_photo",
+    "name": "Equipo Marruecos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MAR-14",
+    "number": 374,
+    "team": "Marruecos",
+    "type": "player",
+    "name": "Jugador 13 Marruecos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MAR-15",
+    "number": 375,
+    "team": "Marruecos",
+    "type": "player",
+    "name": "Jugador 14 Marruecos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MAR-16",
+    "number": 376,
+    "team": "Marruecos",
+    "type": "player",
+    "name": "Jugador 15 Marruecos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MAR-17",
+    "number": 377,
+    "team": "Marruecos",
+    "type": "player",
+    "name": "Jugador 16 Marruecos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MAR-18",
+    "number": 378,
+    "team": "Marruecos",
+    "type": "player",
+    "name": "Jugador 17 Marruecos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MAR-19",
+    "number": 379,
+    "team": "Marruecos",
+    "type": "player",
+    "name": "Jugador 18 Marruecos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "MAR-20",
+    "number": 380,
+    "team": "Marruecos",
+    "type": "player",
+    "name": "Jugador 19 Marruecos",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SEN-01",
+    "number": 381,
+    "team": "Senegal",
+    "type": "badge",
+    "name": "Escudo Senegal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SEN-02",
+    "number": 382,
+    "team": "Senegal",
+    "type": "player",
+    "name": "Jugador 1 Senegal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SEN-03",
+    "number": 383,
+    "team": "Senegal",
+    "type": "player",
+    "name": "Jugador 2 Senegal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SEN-04",
+    "number": 384,
+    "team": "Senegal",
+    "type": "player",
+    "name": "Jugador 3 Senegal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SEN-05",
+    "number": 385,
+    "team": "Senegal",
+    "type": "player",
+    "name": "Jugador 4 Senegal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SEN-06",
+    "number": 386,
+    "team": "Senegal",
+    "type": "player",
+    "name": "Jugador 5 Senegal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SEN-07",
+    "number": 387,
+    "team": "Senegal",
+    "type": "player",
+    "name": "Jugador 6 Senegal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SEN-08",
+    "number": 388,
+    "team": "Senegal",
+    "type": "player",
+    "name": "Jugador 7 Senegal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SEN-09",
+    "number": 389,
+    "team": "Senegal",
+    "type": "player",
+    "name": "Jugador 8 Senegal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SEN-10",
+    "number": 390,
+    "team": "Senegal",
+    "type": "player",
+    "name": "Jugador 9 Senegal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SEN-11",
+    "number": 391,
+    "team": "Senegal",
+    "type": "player",
+    "name": "Jugador 10 Senegal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SEN-12",
+    "number": 392,
+    "team": "Senegal",
+    "type": "player",
+    "name": "Jugador 11 Senegal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SEN-13",
+    "number": 393,
+    "team": "Senegal",
+    "type": "team_photo",
+    "name": "Equipo Senegal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SEN-14",
+    "number": 394,
+    "team": "Senegal",
+    "type": "player",
+    "name": "Jugador 13 Senegal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SEN-15",
+    "number": 395,
+    "team": "Senegal",
+    "type": "player",
+    "name": "Jugador 14 Senegal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SEN-16",
+    "number": 396,
+    "team": "Senegal",
+    "type": "player",
+    "name": "Jugador 15 Senegal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SEN-17",
+    "number": 397,
+    "team": "Senegal",
+    "type": "player",
+    "name": "Jugador 16 Senegal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SEN-18",
+    "number": 398,
+    "team": "Senegal",
+    "type": "player",
+    "name": "Jugador 17 Senegal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SEN-19",
+    "number": 399,
+    "team": "Senegal",
+    "type": "player",
+    "name": "Jugador 18 Senegal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SEN-20",
+    "number": 400,
+    "team": "Senegal",
+    "type": "player",
+    "name": "Jugador 19 Senegal",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUI-01",
+    "number": 401,
+    "team": "Suiza",
+    "type": "badge",
+    "name": "Escudo Suiza",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUI-02",
+    "number": 402,
+    "team": "Suiza",
+    "type": "player",
+    "name": "Jugador 1 Suiza",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUI-03",
+    "number": 403,
+    "team": "Suiza",
+    "type": "player",
+    "name": "Jugador 2 Suiza",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUI-04",
+    "number": 404,
+    "team": "Suiza",
+    "type": "player",
+    "name": "Jugador 3 Suiza",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUI-05",
+    "number": 405,
+    "team": "Suiza",
+    "type": "player",
+    "name": "Jugador 4 Suiza",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUI-06",
+    "number": 406,
+    "team": "Suiza",
+    "type": "player",
+    "name": "Jugador 5 Suiza",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUI-07",
+    "number": 407,
+    "team": "Suiza",
+    "type": "player",
+    "name": "Jugador 6 Suiza",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUI-08",
+    "number": 408,
+    "team": "Suiza",
+    "type": "player",
+    "name": "Jugador 7 Suiza",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUI-09",
+    "number": 409,
+    "team": "Suiza",
+    "type": "player",
+    "name": "Jugador 8 Suiza",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUI-10",
+    "number": 410,
+    "team": "Suiza",
+    "type": "player",
+    "name": "Jugador 9 Suiza",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUI-11",
+    "number": 411,
+    "team": "Suiza",
+    "type": "player",
+    "name": "Jugador 10 Suiza",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUI-12",
+    "number": 412,
+    "team": "Suiza",
+    "type": "player",
+    "name": "Jugador 11 Suiza",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUI-13",
+    "number": 413,
+    "team": "Suiza",
+    "type": "team_photo",
+    "name": "Equipo Suiza",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUI-14",
+    "number": 414,
+    "team": "Suiza",
+    "type": "player",
+    "name": "Jugador 13 Suiza",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUI-15",
+    "number": 415,
+    "team": "Suiza",
+    "type": "player",
+    "name": "Jugador 14 Suiza",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUI-16",
+    "number": 416,
+    "team": "Suiza",
+    "type": "player",
+    "name": "Jugador 15 Suiza",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUI-17",
+    "number": 417,
+    "team": "Suiza",
+    "type": "player",
+    "name": "Jugador 16 Suiza",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUI-18",
+    "number": 418,
+    "team": "Suiza",
+    "type": "player",
+    "name": "Jugador 17 Suiza",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUI-19",
+    "number": 419,
+    "team": "Suiza",
+    "type": "player",
+    "name": "Jugador 18 Suiza",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUI-20",
+    "number": 420,
+    "team": "Suiza",
+    "type": "player",
+    "name": "Jugador 19 Suiza",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "DIN-01",
+    "number": 421,
+    "team": "Dinamarca",
+    "type": "badge",
+    "name": "Escudo Dinamarca",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "DIN-02",
+    "number": 422,
+    "team": "Dinamarca",
+    "type": "player",
+    "name": "Jugador 1 Dinamarca",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "DIN-03",
+    "number": 423,
+    "team": "Dinamarca",
+    "type": "player",
+    "name": "Jugador 2 Dinamarca",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "DIN-04",
+    "number": 424,
+    "team": "Dinamarca",
+    "type": "player",
+    "name": "Jugador 3 Dinamarca",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "DIN-05",
+    "number": 425,
+    "team": "Dinamarca",
+    "type": "player",
+    "name": "Jugador 4 Dinamarca",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "DIN-06",
+    "number": 426,
+    "team": "Dinamarca",
+    "type": "player",
+    "name": "Jugador 5 Dinamarca",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "DIN-07",
+    "number": 427,
+    "team": "Dinamarca",
+    "type": "player",
+    "name": "Jugador 6 Dinamarca",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "DIN-08",
+    "number": 428,
+    "team": "Dinamarca",
+    "type": "player",
+    "name": "Jugador 7 Dinamarca",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "DIN-09",
+    "number": 429,
+    "team": "Dinamarca",
+    "type": "player",
+    "name": "Jugador 8 Dinamarca",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "DIN-10",
+    "number": 430,
+    "team": "Dinamarca",
+    "type": "player",
+    "name": "Jugador 9 Dinamarca",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "DIN-11",
+    "number": 431,
+    "team": "Dinamarca",
+    "type": "player",
+    "name": "Jugador 10 Dinamarca",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "DIN-12",
+    "number": 432,
+    "team": "Dinamarca",
+    "type": "player",
+    "name": "Jugador 11 Dinamarca",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "DIN-13",
+    "number": 433,
+    "team": "Dinamarca",
+    "type": "team_photo",
+    "name": "Equipo Dinamarca",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "DIN-14",
+    "number": 434,
+    "team": "Dinamarca",
+    "type": "player",
+    "name": "Jugador 13 Dinamarca",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "DIN-15",
+    "number": 435,
+    "team": "Dinamarca",
+    "type": "player",
+    "name": "Jugador 14 Dinamarca",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "DIN-16",
+    "number": 436,
+    "team": "Dinamarca",
+    "type": "player",
+    "name": "Jugador 15 Dinamarca",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "DIN-17",
+    "number": 437,
+    "team": "Dinamarca",
+    "type": "player",
+    "name": "Jugador 16 Dinamarca",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "DIN-18",
+    "number": 438,
+    "team": "Dinamarca",
+    "type": "player",
+    "name": "Jugador 17 Dinamarca",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "DIN-19",
+    "number": 439,
+    "team": "Dinamarca",
+    "type": "player",
+    "name": "Jugador 18 Dinamarca",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "DIN-20",
+    "number": 440,
+    "team": "Dinamarca",
+    "type": "player",
+    "name": "Jugador 19 Dinamarca",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POL-01",
+    "number": 441,
+    "team": "Polonia",
+    "type": "badge",
+    "name": "Escudo Polonia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POL-02",
+    "number": 442,
+    "team": "Polonia",
+    "type": "player",
+    "name": "Jugador 1 Polonia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POL-03",
+    "number": 443,
+    "team": "Polonia",
+    "type": "player",
+    "name": "Jugador 2 Polonia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POL-04",
+    "number": 444,
+    "team": "Polonia",
+    "type": "player",
+    "name": "Jugador 3 Polonia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POL-05",
+    "number": 445,
+    "team": "Polonia",
+    "type": "player",
+    "name": "Jugador 4 Polonia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POL-06",
+    "number": 446,
+    "team": "Polonia",
+    "type": "player",
+    "name": "Jugador 5 Polonia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POL-07",
+    "number": 447,
+    "team": "Polonia",
+    "type": "player",
+    "name": "Jugador 6 Polonia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POL-08",
+    "number": 448,
+    "team": "Polonia",
+    "type": "player",
+    "name": "Jugador 7 Polonia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POL-09",
+    "number": 449,
+    "team": "Polonia",
+    "type": "player",
+    "name": "Jugador 8 Polonia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POL-10",
+    "number": 450,
+    "team": "Polonia",
+    "type": "player",
+    "name": "Jugador 9 Polonia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POL-11",
+    "number": 451,
+    "team": "Polonia",
+    "type": "player",
+    "name": "Jugador 10 Polonia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POL-12",
+    "number": 452,
+    "team": "Polonia",
+    "type": "player",
+    "name": "Jugador 11 Polonia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POL-13",
+    "number": 453,
+    "team": "Polonia",
+    "type": "team_photo",
+    "name": "Equipo Polonia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POL-14",
+    "number": 454,
+    "team": "Polonia",
+    "type": "player",
+    "name": "Jugador 13 Polonia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POL-15",
+    "number": 455,
+    "team": "Polonia",
+    "type": "player",
+    "name": "Jugador 14 Polonia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POL-16",
+    "number": 456,
+    "team": "Polonia",
+    "type": "player",
+    "name": "Jugador 15 Polonia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POL-17",
+    "number": 457,
+    "team": "Polonia",
+    "type": "player",
+    "name": "Jugador 16 Polonia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POL-18",
+    "number": 458,
+    "team": "Polonia",
+    "type": "player",
+    "name": "Jugador 17 Polonia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POL-19",
+    "number": 459,
+    "team": "Polonia",
+    "type": "player",
+    "name": "Jugador 18 Polonia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "POL-20",
+    "number": 460,
+    "team": "Polonia",
+    "type": "player",
+    "name": "Jugador 19 Polonia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SER-01",
+    "number": 461,
+    "team": "Serbia",
+    "type": "badge",
+    "name": "Escudo Serbia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SER-02",
+    "number": 462,
+    "team": "Serbia",
+    "type": "player",
+    "name": "Jugador 1 Serbia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SER-03",
+    "number": 463,
+    "team": "Serbia",
+    "type": "player",
+    "name": "Jugador 2 Serbia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SER-04",
+    "number": 464,
+    "team": "Serbia",
+    "type": "player",
+    "name": "Jugador 3 Serbia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SER-05",
+    "number": 465,
+    "team": "Serbia",
+    "type": "player",
+    "name": "Jugador 4 Serbia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SER-06",
+    "number": 466,
+    "team": "Serbia",
+    "type": "player",
+    "name": "Jugador 5 Serbia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SER-07",
+    "number": 467,
+    "team": "Serbia",
+    "type": "player",
+    "name": "Jugador 6 Serbia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SER-08",
+    "number": 468,
+    "team": "Serbia",
+    "type": "player",
+    "name": "Jugador 7 Serbia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SER-09",
+    "number": 469,
+    "team": "Serbia",
+    "type": "player",
+    "name": "Jugador 8 Serbia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SER-10",
+    "number": 470,
+    "team": "Serbia",
+    "type": "player",
+    "name": "Jugador 9 Serbia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SER-11",
+    "number": 471,
+    "team": "Serbia",
+    "type": "player",
+    "name": "Jugador 10 Serbia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SER-12",
+    "number": 472,
+    "team": "Serbia",
+    "type": "player",
+    "name": "Jugador 11 Serbia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SER-13",
+    "number": 473,
+    "team": "Serbia",
+    "type": "team_photo",
+    "name": "Equipo Serbia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SER-14",
+    "number": 474,
+    "team": "Serbia",
+    "type": "player",
+    "name": "Jugador 13 Serbia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SER-15",
+    "number": 475,
+    "team": "Serbia",
+    "type": "player",
+    "name": "Jugador 14 Serbia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SER-16",
+    "number": 476,
+    "team": "Serbia",
+    "type": "player",
+    "name": "Jugador 15 Serbia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SER-17",
+    "number": 477,
+    "team": "Serbia",
+    "type": "player",
+    "name": "Jugador 16 Serbia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SER-18",
+    "number": 478,
+    "team": "Serbia",
+    "type": "player",
+    "name": "Jugador 17 Serbia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SER-19",
+    "number": 479,
+    "team": "Serbia",
+    "type": "player",
+    "name": "Jugador 18 Serbia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SER-20",
+    "number": 480,
+    "team": "Serbia",
+    "type": "player",
+    "name": "Jugador 19 Serbia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COL-01",
+    "number": 481,
+    "team": "Colombia",
+    "type": "badge",
+    "name": "Escudo Colombia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COL-02",
+    "number": 482,
+    "team": "Colombia",
+    "type": "player",
+    "name": "Jugador 1 Colombia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COL-03",
+    "number": 483,
+    "team": "Colombia",
+    "type": "player",
+    "name": "Jugador 2 Colombia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COL-04",
+    "number": 484,
+    "team": "Colombia",
+    "type": "player",
+    "name": "Jugador 3 Colombia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COL-05",
+    "number": 485,
+    "team": "Colombia",
+    "type": "player",
+    "name": "Jugador 4 Colombia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COL-06",
+    "number": 486,
+    "team": "Colombia",
+    "type": "player",
+    "name": "Jugador 5 Colombia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COL-07",
+    "number": 487,
+    "team": "Colombia",
+    "type": "player",
+    "name": "Jugador 6 Colombia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COL-08",
+    "number": 488,
+    "team": "Colombia",
+    "type": "player",
+    "name": "Jugador 7 Colombia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COL-09",
+    "number": 489,
+    "team": "Colombia",
+    "type": "player",
+    "name": "Jugador 8 Colombia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COL-10",
+    "number": 490,
+    "team": "Colombia",
+    "type": "player",
+    "name": "Jugador 9 Colombia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COL-11",
+    "number": 491,
+    "team": "Colombia",
+    "type": "player",
+    "name": "Jugador 10 Colombia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COL-12",
+    "number": 492,
+    "team": "Colombia",
+    "type": "player",
+    "name": "Jugador 11 Colombia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COL-13",
+    "number": 493,
+    "team": "Colombia",
+    "type": "team_photo",
+    "name": "Equipo Colombia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COL-14",
+    "number": 494,
+    "team": "Colombia",
+    "type": "player",
+    "name": "Jugador 13 Colombia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COL-15",
+    "number": 495,
+    "team": "Colombia",
+    "type": "player",
+    "name": "Jugador 14 Colombia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COL-16",
+    "number": 496,
+    "team": "Colombia",
+    "type": "player",
+    "name": "Jugador 15 Colombia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COL-17",
+    "number": 497,
+    "team": "Colombia",
+    "type": "player",
+    "name": "Jugador 16 Colombia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COL-18",
+    "number": 498,
+    "team": "Colombia",
+    "type": "player",
+    "name": "Jugador 17 Colombia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COL-19",
+    "number": 499,
+    "team": "Colombia",
+    "type": "player",
+    "name": "Jugador 18 Colombia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COL-20",
+    "number": 500,
+    "team": "Colombia",
+    "type": "player",
+    "name": "Jugador 19 Colombia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CHI-01",
+    "number": 501,
+    "team": "Chile",
+    "type": "badge",
+    "name": "Escudo Chile",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CHI-02",
+    "number": 502,
+    "team": "Chile",
+    "type": "player",
+    "name": "Jugador 1 Chile",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CHI-03",
+    "number": 503,
+    "team": "Chile",
+    "type": "player",
+    "name": "Jugador 2 Chile",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CHI-04",
+    "number": 504,
+    "team": "Chile",
+    "type": "player",
+    "name": "Jugador 3 Chile",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CHI-05",
+    "number": 505,
+    "team": "Chile",
+    "type": "player",
+    "name": "Jugador 4 Chile",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CHI-06",
+    "number": 506,
+    "team": "Chile",
+    "type": "player",
+    "name": "Jugador 5 Chile",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CHI-07",
+    "number": 507,
+    "team": "Chile",
+    "type": "player",
+    "name": "Jugador 6 Chile",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CHI-08",
+    "number": 508,
+    "team": "Chile",
+    "type": "player",
+    "name": "Jugador 7 Chile",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CHI-09",
+    "number": 509,
+    "team": "Chile",
+    "type": "player",
+    "name": "Jugador 8 Chile",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CHI-10",
+    "number": 510,
+    "team": "Chile",
+    "type": "player",
+    "name": "Jugador 9 Chile",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CHI-11",
+    "number": 511,
+    "team": "Chile",
+    "type": "player",
+    "name": "Jugador 10 Chile",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CHI-12",
+    "number": 512,
+    "team": "Chile",
+    "type": "player",
+    "name": "Jugador 11 Chile",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CHI-13",
+    "number": 513,
+    "team": "Chile",
+    "type": "team_photo",
+    "name": "Equipo Chile",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CHI-14",
+    "number": 514,
+    "team": "Chile",
+    "type": "player",
+    "name": "Jugador 13 Chile",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CHI-15",
+    "number": 515,
+    "team": "Chile",
+    "type": "player",
+    "name": "Jugador 14 Chile",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CHI-16",
+    "number": 516,
+    "team": "Chile",
+    "type": "player",
+    "name": "Jugador 15 Chile",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CHI-17",
+    "number": 517,
+    "team": "Chile",
+    "type": "player",
+    "name": "Jugador 16 Chile",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CHI-18",
+    "number": 518,
+    "team": "Chile",
+    "type": "player",
+    "name": "Jugador 17 Chile",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CHI-19",
+    "number": 519,
+    "team": "Chile",
+    "type": "player",
+    "name": "Jugador 18 Chile",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CHI-20",
+    "number": 520,
+    "team": "Chile",
+    "type": "player",
+    "name": "Jugador 19 Chile",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PER-01",
+    "number": 521,
+    "team": "Perú",
+    "type": "badge",
+    "name": "Escudo Perú",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PER-02",
+    "number": 522,
+    "team": "Perú",
+    "type": "player",
+    "name": "Jugador 1 Perú",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PER-03",
+    "number": 523,
+    "team": "Perú",
+    "type": "player",
+    "name": "Jugador 2 Perú",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PER-04",
+    "number": 524,
+    "team": "Perú",
+    "type": "player",
+    "name": "Jugador 3 Perú",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PER-05",
+    "number": 525,
+    "team": "Perú",
+    "type": "player",
+    "name": "Jugador 4 Perú",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PER-06",
+    "number": 526,
+    "team": "Perú",
+    "type": "player",
+    "name": "Jugador 5 Perú",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PER-07",
+    "number": 527,
+    "team": "Perú",
+    "type": "player",
+    "name": "Jugador 6 Perú",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PER-08",
+    "number": 528,
+    "team": "Perú",
+    "type": "player",
+    "name": "Jugador 7 Perú",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PER-09",
+    "number": 529,
+    "team": "Perú",
+    "type": "player",
+    "name": "Jugador 8 Perú",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PER-10",
+    "number": 530,
+    "team": "Perú",
+    "type": "player",
+    "name": "Jugador 9 Perú",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PER-11",
+    "number": 531,
+    "team": "Perú",
+    "type": "player",
+    "name": "Jugador 10 Perú",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PER-12",
+    "number": 532,
+    "team": "Perú",
+    "type": "player",
+    "name": "Jugador 11 Perú",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PER-13",
+    "number": 533,
+    "team": "Perú",
+    "type": "team_photo",
+    "name": "Equipo Perú",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PER-14",
+    "number": 534,
+    "team": "Perú",
+    "type": "player",
+    "name": "Jugador 13 Perú",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PER-15",
+    "number": 535,
+    "team": "Perú",
+    "type": "player",
+    "name": "Jugador 14 Perú",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PER-16",
+    "number": 536,
+    "team": "Perú",
+    "type": "player",
+    "name": "Jugador 15 Perú",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PER-17",
+    "number": 537,
+    "team": "Perú",
+    "type": "player",
+    "name": "Jugador 16 Perú",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PER-18",
+    "number": 538,
+    "team": "Perú",
+    "type": "player",
+    "name": "Jugador 17 Perú",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PER-19",
+    "number": 539,
+    "team": "Perú",
+    "type": "player",
+    "name": "Jugador 18 Perú",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PER-20",
+    "number": 540,
+    "team": "Perú",
+    "type": "player",
+    "name": "Jugador 19 Perú",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ECU-01",
+    "number": 541,
+    "team": "Ecuador",
+    "type": "badge",
+    "name": "Escudo Ecuador",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ECU-02",
+    "number": 542,
+    "team": "Ecuador",
+    "type": "player",
+    "name": "Jugador 1 Ecuador",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ECU-03",
+    "number": 543,
+    "team": "Ecuador",
+    "type": "player",
+    "name": "Jugador 2 Ecuador",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ECU-04",
+    "number": 544,
+    "team": "Ecuador",
+    "type": "player",
+    "name": "Jugador 3 Ecuador",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ECU-05",
+    "number": 545,
+    "team": "Ecuador",
+    "type": "player",
+    "name": "Jugador 4 Ecuador",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ECU-06",
+    "number": 546,
+    "team": "Ecuador",
+    "type": "player",
+    "name": "Jugador 5 Ecuador",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ECU-07",
+    "number": 547,
+    "team": "Ecuador",
+    "type": "player",
+    "name": "Jugador 6 Ecuador",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ECU-08",
+    "number": 548,
+    "team": "Ecuador",
+    "type": "player",
+    "name": "Jugador 7 Ecuador",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ECU-09",
+    "number": 549,
+    "team": "Ecuador",
+    "type": "player",
+    "name": "Jugador 8 Ecuador",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ECU-10",
+    "number": 550,
+    "team": "Ecuador",
+    "type": "player",
+    "name": "Jugador 9 Ecuador",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ECU-11",
+    "number": 551,
+    "team": "Ecuador",
+    "type": "player",
+    "name": "Jugador 10 Ecuador",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ECU-12",
+    "number": 552,
+    "team": "Ecuador",
+    "type": "player",
+    "name": "Jugador 11 Ecuador",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ECU-13",
+    "number": 553,
+    "team": "Ecuador",
+    "type": "team_photo",
+    "name": "Equipo Ecuador",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ECU-14",
+    "number": 554,
+    "team": "Ecuador",
+    "type": "player",
+    "name": "Jugador 13 Ecuador",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ECU-15",
+    "number": 555,
+    "team": "Ecuador",
+    "type": "player",
+    "name": "Jugador 14 Ecuador",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ECU-16",
+    "number": 556,
+    "team": "Ecuador",
+    "type": "player",
+    "name": "Jugador 15 Ecuador",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ECU-17",
+    "number": 557,
+    "team": "Ecuador",
+    "type": "player",
+    "name": "Jugador 16 Ecuador",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ECU-18",
+    "number": 558,
+    "team": "Ecuador",
+    "type": "player",
+    "name": "Jugador 17 Ecuador",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ECU-19",
+    "number": 559,
+    "team": "Ecuador",
+    "type": "player",
+    "name": "Jugador 18 Ecuador",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ECU-20",
+    "number": 560,
+    "team": "Ecuador",
+    "type": "player",
+    "name": "Jugador 19 Ecuador",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAR-01",
+    "number": 561,
+    "team": "Paraguay",
+    "type": "badge",
+    "name": "Escudo Paraguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAR-02",
+    "number": 562,
+    "team": "Paraguay",
+    "type": "player",
+    "name": "Jugador 1 Paraguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAR-03",
+    "number": 563,
+    "team": "Paraguay",
+    "type": "player",
+    "name": "Jugador 2 Paraguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAR-04",
+    "number": 564,
+    "team": "Paraguay",
+    "type": "player",
+    "name": "Jugador 3 Paraguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAR-05",
+    "number": 565,
+    "team": "Paraguay",
+    "type": "player",
+    "name": "Jugador 4 Paraguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAR-06",
+    "number": 566,
+    "team": "Paraguay",
+    "type": "player",
+    "name": "Jugador 5 Paraguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAR-07",
+    "number": 567,
+    "team": "Paraguay",
+    "type": "player",
+    "name": "Jugador 6 Paraguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAR-08",
+    "number": 568,
+    "team": "Paraguay",
+    "type": "player",
+    "name": "Jugador 7 Paraguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAR-09",
+    "number": 569,
+    "team": "Paraguay",
+    "type": "player",
+    "name": "Jugador 8 Paraguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAR-10",
+    "number": 570,
+    "team": "Paraguay",
+    "type": "player",
+    "name": "Jugador 9 Paraguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAR-11",
+    "number": 571,
+    "team": "Paraguay",
+    "type": "player",
+    "name": "Jugador 10 Paraguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAR-12",
+    "number": 572,
+    "team": "Paraguay",
+    "type": "player",
+    "name": "Jugador 11 Paraguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAR-13",
+    "number": 573,
+    "team": "Paraguay",
+    "type": "team_photo",
+    "name": "Equipo Paraguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAR-14",
+    "number": 574,
+    "team": "Paraguay",
+    "type": "player",
+    "name": "Jugador 13 Paraguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAR-15",
+    "number": 575,
+    "team": "Paraguay",
+    "type": "player",
+    "name": "Jugador 14 Paraguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAR-16",
+    "number": 576,
+    "team": "Paraguay",
+    "type": "player",
+    "name": "Jugador 15 Paraguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAR-17",
+    "number": 577,
+    "team": "Paraguay",
+    "type": "player",
+    "name": "Jugador 16 Paraguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAR-18",
+    "number": 578,
+    "team": "Paraguay",
+    "type": "player",
+    "name": "Jugador 17 Paraguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAR-19",
+    "number": 579,
+    "team": "Paraguay",
+    "type": "player",
+    "name": "Jugador 18 Paraguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAR-20",
+    "number": 580,
+    "team": "Paraguay",
+    "type": "player",
+    "name": "Jugador 19 Paraguay",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "VEN-01",
+    "number": 581,
+    "team": "Venezuela",
+    "type": "badge",
+    "name": "Escudo Venezuela",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "VEN-02",
+    "number": 582,
+    "team": "Venezuela",
+    "type": "player",
+    "name": "Jugador 1 Venezuela",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "VEN-03",
+    "number": 583,
+    "team": "Venezuela",
+    "type": "player",
+    "name": "Jugador 2 Venezuela",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "VEN-04",
+    "number": 584,
+    "team": "Venezuela",
+    "type": "player",
+    "name": "Jugador 3 Venezuela",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "VEN-05",
+    "number": 585,
+    "team": "Venezuela",
+    "type": "player",
+    "name": "Jugador 4 Venezuela",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "VEN-06",
+    "number": 586,
+    "team": "Venezuela",
+    "type": "player",
+    "name": "Jugador 5 Venezuela",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "VEN-07",
+    "number": 587,
+    "team": "Venezuela",
+    "type": "player",
+    "name": "Jugador 6 Venezuela",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "VEN-08",
+    "number": 588,
+    "team": "Venezuela",
+    "type": "player",
+    "name": "Jugador 7 Venezuela",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "VEN-09",
+    "number": 589,
+    "team": "Venezuela",
+    "type": "player",
+    "name": "Jugador 8 Venezuela",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "VEN-10",
+    "number": 590,
+    "team": "Venezuela",
+    "type": "player",
+    "name": "Jugador 9 Venezuela",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "VEN-11",
+    "number": 591,
+    "team": "Venezuela",
+    "type": "player",
+    "name": "Jugador 10 Venezuela",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "VEN-12",
+    "number": 592,
+    "team": "Venezuela",
+    "type": "player",
+    "name": "Jugador 11 Venezuela",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "VEN-13",
+    "number": 593,
+    "team": "Venezuela",
+    "type": "team_photo",
+    "name": "Equipo Venezuela",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "VEN-14",
+    "number": 594,
+    "team": "Venezuela",
+    "type": "player",
+    "name": "Jugador 13 Venezuela",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "VEN-15",
+    "number": 595,
+    "team": "Venezuela",
+    "type": "player",
+    "name": "Jugador 14 Venezuela",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "VEN-16",
+    "number": 596,
+    "team": "Venezuela",
+    "type": "player",
+    "name": "Jugador 15 Venezuela",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "VEN-17",
+    "number": 597,
+    "team": "Venezuela",
+    "type": "player",
+    "name": "Jugador 16 Venezuela",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "VEN-18",
+    "number": 598,
+    "team": "Venezuela",
+    "type": "player",
+    "name": "Jugador 17 Venezuela",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "VEN-19",
+    "number": 599,
+    "team": "Venezuela",
+    "type": "player",
+    "name": "Jugador 18 Venezuela",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "VEN-20",
+    "number": 600,
+    "team": "Venezuela",
+    "type": "player",
+    "name": "Jugador 19 Venezuela",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COS-01",
+    "number": 601,
+    "team": "Costa Rica",
+    "type": "badge",
+    "name": "Escudo Costa Rica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COS-02",
+    "number": 602,
+    "team": "Costa Rica",
+    "type": "player",
+    "name": "Jugador 1 Costa Rica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COS-03",
+    "number": 603,
+    "team": "Costa Rica",
+    "type": "player",
+    "name": "Jugador 2 Costa Rica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COS-04",
+    "number": 604,
+    "team": "Costa Rica",
+    "type": "player",
+    "name": "Jugador 3 Costa Rica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COS-05",
+    "number": 605,
+    "team": "Costa Rica",
+    "type": "player",
+    "name": "Jugador 4 Costa Rica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COS-06",
+    "number": 606,
+    "team": "Costa Rica",
+    "type": "player",
+    "name": "Jugador 5 Costa Rica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COS-07",
+    "number": 607,
+    "team": "Costa Rica",
+    "type": "player",
+    "name": "Jugador 6 Costa Rica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COS-08",
+    "number": 608,
+    "team": "Costa Rica",
+    "type": "player",
+    "name": "Jugador 7 Costa Rica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COS-09",
+    "number": 609,
+    "team": "Costa Rica",
+    "type": "player",
+    "name": "Jugador 8 Costa Rica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COS-10",
+    "number": 610,
+    "team": "Costa Rica",
+    "type": "player",
+    "name": "Jugador 9 Costa Rica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COS-11",
+    "number": 611,
+    "team": "Costa Rica",
+    "type": "player",
+    "name": "Jugador 10 Costa Rica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COS-12",
+    "number": 612,
+    "team": "Costa Rica",
+    "type": "player",
+    "name": "Jugador 11 Costa Rica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COS-13",
+    "number": 613,
+    "team": "Costa Rica",
+    "type": "team_photo",
+    "name": "Equipo Costa Rica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COS-14",
+    "number": 614,
+    "team": "Costa Rica",
+    "type": "player",
+    "name": "Jugador 13 Costa Rica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COS-15",
+    "number": 615,
+    "team": "Costa Rica",
+    "type": "player",
+    "name": "Jugador 14 Costa Rica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COS-16",
+    "number": 616,
+    "team": "Costa Rica",
+    "type": "player",
+    "name": "Jugador 15 Costa Rica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COS-17",
+    "number": 617,
+    "team": "Costa Rica",
+    "type": "player",
+    "name": "Jugador 16 Costa Rica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COS-18",
+    "number": 618,
+    "team": "Costa Rica",
+    "type": "player",
+    "name": "Jugador 17 Costa Rica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COS-19",
+    "number": 619,
+    "team": "Costa Rica",
+    "type": "player",
+    "name": "Jugador 18 Costa Rica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "COS-20",
+    "number": 620,
+    "team": "Costa Rica",
+    "type": "player",
+    "name": "Jugador 19 Costa Rica",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAN-01",
+    "number": 621,
+    "team": "Panamá",
+    "type": "badge",
+    "name": "Escudo Panamá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAN-02",
+    "number": 622,
+    "team": "Panamá",
+    "type": "player",
+    "name": "Jugador 1 Panamá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAN-03",
+    "number": 623,
+    "team": "Panamá",
+    "type": "player",
+    "name": "Jugador 2 Panamá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAN-04",
+    "number": 624,
+    "team": "Panamá",
+    "type": "player",
+    "name": "Jugador 3 Panamá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAN-05",
+    "number": 625,
+    "team": "Panamá",
+    "type": "player",
+    "name": "Jugador 4 Panamá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAN-06",
+    "number": 626,
+    "team": "Panamá",
+    "type": "player",
+    "name": "Jugador 5 Panamá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAN-07",
+    "number": 627,
+    "team": "Panamá",
+    "type": "player",
+    "name": "Jugador 6 Panamá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAN-08",
+    "number": 628,
+    "team": "Panamá",
+    "type": "player",
+    "name": "Jugador 7 Panamá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAN-09",
+    "number": 629,
+    "team": "Panamá",
+    "type": "player",
+    "name": "Jugador 8 Panamá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAN-10",
+    "number": 630,
+    "team": "Panamá",
+    "type": "player",
+    "name": "Jugador 9 Panamá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAN-11",
+    "number": 631,
+    "team": "Panamá",
+    "type": "player",
+    "name": "Jugador 10 Panamá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAN-12",
+    "number": 632,
+    "team": "Panamá",
+    "type": "player",
+    "name": "Jugador 11 Panamá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAN-13",
+    "number": 633,
+    "team": "Panamá",
+    "type": "team_photo",
+    "name": "Equipo Panamá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAN-14",
+    "number": 634,
+    "team": "Panamá",
+    "type": "player",
+    "name": "Jugador 13 Panamá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAN-15",
+    "number": 635,
+    "team": "Panamá",
+    "type": "player",
+    "name": "Jugador 14 Panamá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAN-16",
+    "number": 636,
+    "team": "Panamá",
+    "type": "player",
+    "name": "Jugador 15 Panamá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAN-17",
+    "number": 637,
+    "team": "Panamá",
+    "type": "player",
+    "name": "Jugador 16 Panamá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAN-18",
+    "number": 638,
+    "team": "Panamá",
+    "type": "player",
+    "name": "Jugador 17 Panamá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAN-19",
+    "number": 639,
+    "team": "Panamá",
+    "type": "player",
+    "name": "Jugador 18 Panamá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "PAN-20",
+    "number": 640,
+    "team": "Panamá",
+    "type": "player",
+    "name": "Jugador 19 Panamá",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "IRÁ-01",
+    "number": 641,
+    "team": "Irán",
+    "type": "badge",
+    "name": "Escudo Irán",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "IRÁ-02",
+    "number": 642,
+    "team": "Irán",
+    "type": "player",
+    "name": "Jugador 1 Irán",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "IRÁ-03",
+    "number": 643,
+    "team": "Irán",
+    "type": "player",
+    "name": "Jugador 2 Irán",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "IRÁ-04",
+    "number": 644,
+    "team": "Irán",
+    "type": "player",
+    "name": "Jugador 3 Irán",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "IRÁ-05",
+    "number": 645,
+    "team": "Irán",
+    "type": "player",
+    "name": "Jugador 4 Irán",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "IRÁ-06",
+    "number": 646,
+    "team": "Irán",
+    "type": "player",
+    "name": "Jugador 5 Irán",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "IRÁ-07",
+    "number": 647,
+    "team": "Irán",
+    "type": "player",
+    "name": "Jugador 6 Irán",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "IRÁ-08",
+    "number": 648,
+    "team": "Irán",
+    "type": "player",
+    "name": "Jugador 7 Irán",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "IRÁ-09",
+    "number": 649,
+    "team": "Irán",
+    "type": "player",
+    "name": "Jugador 8 Irán",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "IRÁ-10",
+    "number": 650,
+    "team": "Irán",
+    "type": "player",
+    "name": "Jugador 9 Irán",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "IRÁ-11",
+    "number": 651,
+    "team": "Irán",
+    "type": "player",
+    "name": "Jugador 10 Irán",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "IRÁ-12",
+    "number": 652,
+    "team": "Irán",
+    "type": "player",
+    "name": "Jugador 11 Irán",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "IRÁ-13",
+    "number": 653,
+    "team": "Irán",
+    "type": "team_photo",
+    "name": "Equipo Irán",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "IRÁ-14",
+    "number": 654,
+    "team": "Irán",
+    "type": "player",
+    "name": "Jugador 13 Irán",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "IRÁ-15",
+    "number": 655,
+    "team": "Irán",
+    "type": "player",
+    "name": "Jugador 14 Irán",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "IRÁ-16",
+    "number": 656,
+    "team": "Irán",
+    "type": "player",
+    "name": "Jugador 15 Irán",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "IRÁ-17",
+    "number": 657,
+    "team": "Irán",
+    "type": "player",
+    "name": "Jugador 16 Irán",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "IRÁ-18",
+    "number": 658,
+    "team": "Irán",
+    "type": "player",
+    "name": "Jugador 17 Irán",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "IRÁ-19",
+    "number": 659,
+    "team": "Irán",
+    "type": "player",
+    "name": "Jugador 18 Irán",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "IRÁ-20",
+    "number": 660,
+    "team": "Irán",
+    "type": "player",
+    "name": "Jugador 19 Irán",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARA-01",
+    "number": 661,
+    "team": "Arabia Saudita",
+    "type": "badge",
+    "name": "Escudo Arabia Saudita",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARA-02",
+    "number": 662,
+    "team": "Arabia Saudita",
+    "type": "player",
+    "name": "Jugador 1 Arabia Saudita",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARA-03",
+    "number": 663,
+    "team": "Arabia Saudita",
+    "type": "player",
+    "name": "Jugador 2 Arabia Saudita",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARA-04",
+    "number": 664,
+    "team": "Arabia Saudita",
+    "type": "player",
+    "name": "Jugador 3 Arabia Saudita",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARA-05",
+    "number": 665,
+    "team": "Arabia Saudita",
+    "type": "player",
+    "name": "Jugador 4 Arabia Saudita",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARA-06",
+    "number": 666,
+    "team": "Arabia Saudita",
+    "type": "player",
+    "name": "Jugador 5 Arabia Saudita",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARA-07",
+    "number": 667,
+    "team": "Arabia Saudita",
+    "type": "player",
+    "name": "Jugador 6 Arabia Saudita",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARA-08",
+    "number": 668,
+    "team": "Arabia Saudita",
+    "type": "player",
+    "name": "Jugador 7 Arabia Saudita",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARA-09",
+    "number": 669,
+    "team": "Arabia Saudita",
+    "type": "player",
+    "name": "Jugador 8 Arabia Saudita",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARA-10",
+    "number": 670,
+    "team": "Arabia Saudita",
+    "type": "player",
+    "name": "Jugador 9 Arabia Saudita",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARA-11",
+    "number": 671,
+    "team": "Arabia Saudita",
+    "type": "player",
+    "name": "Jugador 10 Arabia Saudita",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARA-12",
+    "number": 672,
+    "team": "Arabia Saudita",
+    "type": "player",
+    "name": "Jugador 11 Arabia Saudita",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARA-13",
+    "number": 673,
+    "team": "Arabia Saudita",
+    "type": "team_photo",
+    "name": "Equipo Arabia Saudita",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARA-14",
+    "number": 674,
+    "team": "Arabia Saudita",
+    "type": "player",
+    "name": "Jugador 13 Arabia Saudita",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARA-15",
+    "number": 675,
+    "team": "Arabia Saudita",
+    "type": "player",
+    "name": "Jugador 14 Arabia Saudita",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARA-16",
+    "number": 676,
+    "team": "Arabia Saudita",
+    "type": "player",
+    "name": "Jugador 15 Arabia Saudita",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARA-17",
+    "number": 677,
+    "team": "Arabia Saudita",
+    "type": "player",
+    "name": "Jugador 16 Arabia Saudita",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARA-18",
+    "number": 678,
+    "team": "Arabia Saudita",
+    "type": "player",
+    "name": "Jugador 17 Arabia Saudita",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARA-19",
+    "number": 679,
+    "team": "Arabia Saudita",
+    "type": "player",
+    "name": "Jugador 18 Arabia Saudita",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARA-20",
+    "number": 680,
+    "team": "Arabia Saudita",
+    "type": "player",
+    "name": "Jugador 19 Arabia Saudita",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "QAT-01",
+    "number": 681,
+    "team": "Qatar",
+    "type": "badge",
+    "name": "Escudo Qatar",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "QAT-02",
+    "number": 682,
+    "team": "Qatar",
+    "type": "player",
+    "name": "Jugador 1 Qatar",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "QAT-03",
+    "number": 683,
+    "team": "Qatar",
+    "type": "player",
+    "name": "Jugador 2 Qatar",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "QAT-04",
+    "number": 684,
+    "team": "Qatar",
+    "type": "player",
+    "name": "Jugador 3 Qatar",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "QAT-05",
+    "number": 685,
+    "team": "Qatar",
+    "type": "player",
+    "name": "Jugador 4 Qatar",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "QAT-06",
+    "number": 686,
+    "team": "Qatar",
+    "type": "player",
+    "name": "Jugador 5 Qatar",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "QAT-07",
+    "number": 687,
+    "team": "Qatar",
+    "type": "player",
+    "name": "Jugador 6 Qatar",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "QAT-08",
+    "number": 688,
+    "team": "Qatar",
+    "type": "player",
+    "name": "Jugador 7 Qatar",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "QAT-09",
+    "number": 689,
+    "team": "Qatar",
+    "type": "player",
+    "name": "Jugador 8 Qatar",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "QAT-10",
+    "number": 690,
+    "team": "Qatar",
+    "type": "player",
+    "name": "Jugador 9 Qatar",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "QAT-11",
+    "number": 691,
+    "team": "Qatar",
+    "type": "player",
+    "name": "Jugador 10 Qatar",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "QAT-12",
+    "number": 692,
+    "team": "Qatar",
+    "type": "player",
+    "name": "Jugador 11 Qatar",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "QAT-13",
+    "number": 693,
+    "team": "Qatar",
+    "type": "team_photo",
+    "name": "Equipo Qatar",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "QAT-14",
+    "number": 694,
+    "team": "Qatar",
+    "type": "player",
+    "name": "Jugador 13 Qatar",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "QAT-15",
+    "number": 695,
+    "team": "Qatar",
+    "type": "player",
+    "name": "Jugador 14 Qatar",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "QAT-16",
+    "number": 696,
+    "team": "Qatar",
+    "type": "player",
+    "name": "Jugador 15 Qatar",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "QAT-17",
+    "number": 697,
+    "team": "Qatar",
+    "type": "player",
+    "name": "Jugador 16 Qatar",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "QAT-18",
+    "number": 698,
+    "team": "Qatar",
+    "type": "player",
+    "name": "Jugador 17 Qatar",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "QAT-19",
+    "number": 699,
+    "team": "Qatar",
+    "type": "player",
+    "name": "Jugador 18 Qatar",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "QAT-20",
+    "number": 700,
+    "team": "Qatar",
+    "type": "player",
+    "name": "Jugador 19 Qatar",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EGI-01",
+    "number": 701,
+    "team": "Egipto",
+    "type": "badge",
+    "name": "Escudo Egipto",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EGI-02",
+    "number": 702,
+    "team": "Egipto",
+    "type": "player",
+    "name": "Jugador 1 Egipto",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EGI-03",
+    "number": 703,
+    "team": "Egipto",
+    "type": "player",
+    "name": "Jugador 2 Egipto",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EGI-04",
+    "number": 704,
+    "team": "Egipto",
+    "type": "player",
+    "name": "Jugador 3 Egipto",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EGI-05",
+    "number": 705,
+    "team": "Egipto",
+    "type": "player",
+    "name": "Jugador 4 Egipto",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EGI-06",
+    "number": 706,
+    "team": "Egipto",
+    "type": "player",
+    "name": "Jugador 5 Egipto",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EGI-07",
+    "number": 707,
+    "team": "Egipto",
+    "type": "player",
+    "name": "Jugador 6 Egipto",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EGI-08",
+    "number": 708,
+    "team": "Egipto",
+    "type": "player",
+    "name": "Jugador 7 Egipto",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EGI-09",
+    "number": 709,
+    "team": "Egipto",
+    "type": "player",
+    "name": "Jugador 8 Egipto",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EGI-10",
+    "number": 710,
+    "team": "Egipto",
+    "type": "player",
+    "name": "Jugador 9 Egipto",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EGI-11",
+    "number": 711,
+    "team": "Egipto",
+    "type": "player",
+    "name": "Jugador 10 Egipto",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EGI-12",
+    "number": 712,
+    "team": "Egipto",
+    "type": "player",
+    "name": "Jugador 11 Egipto",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EGI-13",
+    "number": 713,
+    "team": "Egipto",
+    "type": "team_photo",
+    "name": "Equipo Egipto",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EGI-14",
+    "number": 714,
+    "team": "Egipto",
+    "type": "player",
+    "name": "Jugador 13 Egipto",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EGI-15",
+    "number": 715,
+    "team": "Egipto",
+    "type": "player",
+    "name": "Jugador 14 Egipto",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EGI-16",
+    "number": 716,
+    "team": "Egipto",
+    "type": "player",
+    "name": "Jugador 15 Egipto",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EGI-17",
+    "number": 717,
+    "team": "Egipto",
+    "type": "player",
+    "name": "Jugador 16 Egipto",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EGI-18",
+    "number": 718,
+    "team": "Egipto",
+    "type": "player",
+    "name": "Jugador 17 Egipto",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EGI-19",
+    "number": 719,
+    "team": "Egipto",
+    "type": "player",
+    "name": "Jugador 18 Egipto",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "EGI-20",
+    "number": 720,
+    "team": "Egipto",
+    "type": "player",
+    "name": "Jugador 19 Egipto",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NIG-01",
+    "number": 721,
+    "team": "Nigeria",
+    "type": "badge",
+    "name": "Escudo Nigeria",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NIG-02",
+    "number": 722,
+    "team": "Nigeria",
+    "type": "player",
+    "name": "Jugador 1 Nigeria",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NIG-03",
+    "number": 723,
+    "team": "Nigeria",
+    "type": "player",
+    "name": "Jugador 2 Nigeria",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NIG-04",
+    "number": 724,
+    "team": "Nigeria",
+    "type": "player",
+    "name": "Jugador 3 Nigeria",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NIG-05",
+    "number": 725,
+    "team": "Nigeria",
+    "type": "player",
+    "name": "Jugador 4 Nigeria",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NIG-06",
+    "number": 726,
+    "team": "Nigeria",
+    "type": "player",
+    "name": "Jugador 5 Nigeria",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NIG-07",
+    "number": 727,
+    "team": "Nigeria",
+    "type": "player",
+    "name": "Jugador 6 Nigeria",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NIG-08",
+    "number": 728,
+    "team": "Nigeria",
+    "type": "player",
+    "name": "Jugador 7 Nigeria",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NIG-09",
+    "number": 729,
+    "team": "Nigeria",
+    "type": "player",
+    "name": "Jugador 8 Nigeria",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NIG-10",
+    "number": 730,
+    "team": "Nigeria",
+    "type": "player",
+    "name": "Jugador 9 Nigeria",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NIG-11",
+    "number": 731,
+    "team": "Nigeria",
+    "type": "player",
+    "name": "Jugador 10 Nigeria",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NIG-12",
+    "number": 732,
+    "team": "Nigeria",
+    "type": "player",
+    "name": "Jugador 11 Nigeria",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NIG-13",
+    "number": 733,
+    "team": "Nigeria",
+    "type": "team_photo",
+    "name": "Equipo Nigeria",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NIG-14",
+    "number": 734,
+    "team": "Nigeria",
+    "type": "player",
+    "name": "Jugador 13 Nigeria",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NIG-15",
+    "number": 735,
+    "team": "Nigeria",
+    "type": "player",
+    "name": "Jugador 14 Nigeria",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NIG-16",
+    "number": 736,
+    "team": "Nigeria",
+    "type": "player",
+    "name": "Jugador 15 Nigeria",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NIG-17",
+    "number": 737,
+    "team": "Nigeria",
+    "type": "player",
+    "name": "Jugador 16 Nigeria",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NIG-18",
+    "number": 738,
+    "team": "Nigeria",
+    "type": "player",
+    "name": "Jugador 17 Nigeria",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NIG-19",
+    "number": 739,
+    "team": "Nigeria",
+    "type": "player",
+    "name": "Jugador 18 Nigeria",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NIG-20",
+    "number": 740,
+    "team": "Nigeria",
+    "type": "player",
+    "name": "Jugador 19 Nigeria",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAM-01",
+    "number": 741,
+    "team": "Camerún",
+    "type": "badge",
+    "name": "Escudo Camerún",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAM-02",
+    "number": 742,
+    "team": "Camerún",
+    "type": "player",
+    "name": "Jugador 1 Camerún",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAM-03",
+    "number": 743,
+    "team": "Camerún",
+    "type": "player",
+    "name": "Jugador 2 Camerún",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAM-04",
+    "number": 744,
+    "team": "Camerún",
+    "type": "player",
+    "name": "Jugador 3 Camerún",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAM-05",
+    "number": 745,
+    "team": "Camerún",
+    "type": "player",
+    "name": "Jugador 4 Camerún",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAM-06",
+    "number": 746,
+    "team": "Camerún",
+    "type": "player",
+    "name": "Jugador 5 Camerún",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAM-07",
+    "number": 747,
+    "team": "Camerún",
+    "type": "player",
+    "name": "Jugador 6 Camerún",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAM-08",
+    "number": 748,
+    "team": "Camerún",
+    "type": "player",
+    "name": "Jugador 7 Camerún",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAM-09",
+    "number": 749,
+    "team": "Camerún",
+    "type": "player",
+    "name": "Jugador 8 Camerún",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAM-10",
+    "number": 750,
+    "team": "Camerún",
+    "type": "player",
+    "name": "Jugador 9 Camerún",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAM-11",
+    "number": 751,
+    "team": "Camerún",
+    "type": "player",
+    "name": "Jugador 10 Camerún",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAM-12",
+    "number": 752,
+    "team": "Camerún",
+    "type": "player",
+    "name": "Jugador 11 Camerún",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAM-13",
+    "number": 753,
+    "team": "Camerún",
+    "type": "team_photo",
+    "name": "Equipo Camerún",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAM-14",
+    "number": 754,
+    "team": "Camerún",
+    "type": "player",
+    "name": "Jugador 13 Camerún",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAM-15",
+    "number": 755,
+    "team": "Camerún",
+    "type": "player",
+    "name": "Jugador 14 Camerún",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAM-16",
+    "number": 756,
+    "team": "Camerún",
+    "type": "player",
+    "name": "Jugador 15 Camerún",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAM-17",
+    "number": 757,
+    "team": "Camerún",
+    "type": "player",
+    "name": "Jugador 16 Camerún",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAM-18",
+    "number": 758,
+    "team": "Camerún",
+    "type": "player",
+    "name": "Jugador 17 Camerún",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAM-19",
+    "number": 759,
+    "team": "Camerún",
+    "type": "player",
+    "name": "Jugador 18 Camerún",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "CAM-20",
+    "number": 760,
+    "team": "Camerún",
+    "type": "player",
+    "name": "Jugador 19 Camerún",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GHA-01",
+    "number": 761,
+    "team": "Ghana",
+    "type": "badge",
+    "name": "Escudo Ghana",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GHA-02",
+    "number": 762,
+    "team": "Ghana",
+    "type": "player",
+    "name": "Jugador 1 Ghana",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GHA-03",
+    "number": 763,
+    "team": "Ghana",
+    "type": "player",
+    "name": "Jugador 2 Ghana",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GHA-04",
+    "number": 764,
+    "team": "Ghana",
+    "type": "player",
+    "name": "Jugador 3 Ghana",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GHA-05",
+    "number": 765,
+    "team": "Ghana",
+    "type": "player",
+    "name": "Jugador 4 Ghana",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GHA-06",
+    "number": 766,
+    "team": "Ghana",
+    "type": "player",
+    "name": "Jugador 5 Ghana",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GHA-07",
+    "number": 767,
+    "team": "Ghana",
+    "type": "player",
+    "name": "Jugador 6 Ghana",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GHA-08",
+    "number": 768,
+    "team": "Ghana",
+    "type": "player",
+    "name": "Jugador 7 Ghana",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GHA-09",
+    "number": 769,
+    "team": "Ghana",
+    "type": "player",
+    "name": "Jugador 8 Ghana",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GHA-10",
+    "number": 770,
+    "team": "Ghana",
+    "type": "player",
+    "name": "Jugador 9 Ghana",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GHA-11",
+    "number": 771,
+    "team": "Ghana",
+    "type": "player",
+    "name": "Jugador 10 Ghana",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GHA-12",
+    "number": 772,
+    "team": "Ghana",
+    "type": "player",
+    "name": "Jugador 11 Ghana",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GHA-13",
+    "number": 773,
+    "team": "Ghana",
+    "type": "team_photo",
+    "name": "Equipo Ghana",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GHA-14",
+    "number": 774,
+    "team": "Ghana",
+    "type": "player",
+    "name": "Jugador 13 Ghana",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GHA-15",
+    "number": 775,
+    "team": "Ghana",
+    "type": "player",
+    "name": "Jugador 14 Ghana",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GHA-16",
+    "number": 776,
+    "team": "Ghana",
+    "type": "player",
+    "name": "Jugador 15 Ghana",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GHA-17",
+    "number": 777,
+    "team": "Ghana",
+    "type": "player",
+    "name": "Jugador 16 Ghana",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GHA-18",
+    "number": 778,
+    "team": "Ghana",
+    "type": "player",
+    "name": "Jugador 17 Ghana",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GHA-19",
+    "number": 779,
+    "team": "Ghana",
+    "type": "player",
+    "name": "Jugador 18 Ghana",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GHA-20",
+    "number": 780,
+    "team": "Ghana",
+    "type": "player",
+    "name": "Jugador 19 Ghana",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TÚN-01",
+    "number": 781,
+    "team": "Túnez",
+    "type": "badge",
+    "name": "Escudo Túnez",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TÚN-02",
+    "number": 782,
+    "team": "Túnez",
+    "type": "player",
+    "name": "Jugador 1 Túnez",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TÚN-03",
+    "number": 783,
+    "team": "Túnez",
+    "type": "player",
+    "name": "Jugador 2 Túnez",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TÚN-04",
+    "number": 784,
+    "team": "Túnez",
+    "type": "player",
+    "name": "Jugador 3 Túnez",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TÚN-05",
+    "number": 785,
+    "team": "Túnez",
+    "type": "player",
+    "name": "Jugador 4 Túnez",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TÚN-06",
+    "number": 786,
+    "team": "Túnez",
+    "type": "player",
+    "name": "Jugador 5 Túnez",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TÚN-07",
+    "number": 787,
+    "team": "Túnez",
+    "type": "player",
+    "name": "Jugador 6 Túnez",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TÚN-08",
+    "number": 788,
+    "team": "Túnez",
+    "type": "player",
+    "name": "Jugador 7 Túnez",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TÚN-09",
+    "number": 789,
+    "team": "Túnez",
+    "type": "player",
+    "name": "Jugador 8 Túnez",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TÚN-10",
+    "number": 790,
+    "team": "Túnez",
+    "type": "player",
+    "name": "Jugador 9 Túnez",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TÚN-11",
+    "number": 791,
+    "team": "Túnez",
+    "type": "player",
+    "name": "Jugador 10 Túnez",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TÚN-12",
+    "number": 792,
+    "team": "Túnez",
+    "type": "player",
+    "name": "Jugador 11 Túnez",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TÚN-13",
+    "number": 793,
+    "team": "Túnez",
+    "type": "team_photo",
+    "name": "Equipo Túnez",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TÚN-14",
+    "number": 794,
+    "team": "Túnez",
+    "type": "player",
+    "name": "Jugador 13 Túnez",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TÚN-15",
+    "number": 795,
+    "team": "Túnez",
+    "type": "player",
+    "name": "Jugador 14 Túnez",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TÚN-16",
+    "number": 796,
+    "team": "Túnez",
+    "type": "player",
+    "name": "Jugador 15 Túnez",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TÚN-17",
+    "number": 797,
+    "team": "Túnez",
+    "type": "player",
+    "name": "Jugador 16 Túnez",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TÚN-18",
+    "number": 798,
+    "team": "Túnez",
+    "type": "player",
+    "name": "Jugador 17 Túnez",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TÚN-19",
+    "number": 799,
+    "team": "Túnez",
+    "type": "player",
+    "name": "Jugador 18 Túnez",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TÚN-20",
+    "number": 800,
+    "team": "Túnez",
+    "type": "player",
+    "name": "Jugador 19 Túnez",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-01",
+    "number": 801,
+    "team": "Argelia",
+    "type": "badge",
+    "name": "Escudo Argelia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-02",
+    "number": 802,
+    "team": "Argelia",
+    "type": "player",
+    "name": "Jugador 1 Argelia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-03",
+    "number": 803,
+    "team": "Argelia",
+    "type": "player",
+    "name": "Jugador 2 Argelia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-04",
+    "number": 804,
+    "team": "Argelia",
+    "type": "player",
+    "name": "Jugador 3 Argelia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-05",
+    "number": 805,
+    "team": "Argelia",
+    "type": "player",
+    "name": "Jugador 4 Argelia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-06",
+    "number": 806,
+    "team": "Argelia",
+    "type": "player",
+    "name": "Jugador 5 Argelia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-07",
+    "number": 807,
+    "team": "Argelia",
+    "type": "player",
+    "name": "Jugador 6 Argelia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-08",
+    "number": 808,
+    "team": "Argelia",
+    "type": "player",
+    "name": "Jugador 7 Argelia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-09",
+    "number": 809,
+    "team": "Argelia",
+    "type": "player",
+    "name": "Jugador 8 Argelia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-10",
+    "number": 810,
+    "team": "Argelia",
+    "type": "player",
+    "name": "Jugador 9 Argelia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-11",
+    "number": 811,
+    "team": "Argelia",
+    "type": "player",
+    "name": "Jugador 10 Argelia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-12",
+    "number": 812,
+    "team": "Argelia",
+    "type": "player",
+    "name": "Jugador 11 Argelia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-13",
+    "number": 813,
+    "team": "Argelia",
+    "type": "team_photo",
+    "name": "Equipo Argelia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-14",
+    "number": 814,
+    "team": "Argelia",
+    "type": "player",
+    "name": "Jugador 13 Argelia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-15",
+    "number": 815,
+    "team": "Argelia",
+    "type": "player",
+    "name": "Jugador 14 Argelia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-16",
+    "number": 816,
+    "team": "Argelia",
+    "type": "player",
+    "name": "Jugador 15 Argelia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-17",
+    "number": 817,
+    "team": "Argelia",
+    "type": "player",
+    "name": "Jugador 16 Argelia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-18",
+    "number": 818,
+    "team": "Argelia",
+    "type": "player",
+    "name": "Jugador 17 Argelia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-19",
+    "number": 819,
+    "team": "Argelia",
+    "type": "player",
+    "name": "Jugador 18 Argelia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "ARG-20",
+    "number": 820,
+    "team": "Argelia",
+    "type": "player",
+    "name": "Jugador 19 Argelia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GRE-01",
+    "number": 821,
+    "team": "Grecia",
+    "type": "badge",
+    "name": "Escudo Grecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GRE-02",
+    "number": 822,
+    "team": "Grecia",
+    "type": "player",
+    "name": "Jugador 1 Grecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GRE-03",
+    "number": 823,
+    "team": "Grecia",
+    "type": "player",
+    "name": "Jugador 2 Grecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GRE-04",
+    "number": 824,
+    "team": "Grecia",
+    "type": "player",
+    "name": "Jugador 3 Grecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GRE-05",
+    "number": 825,
+    "team": "Grecia",
+    "type": "player",
+    "name": "Jugador 4 Grecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GRE-06",
+    "number": 826,
+    "team": "Grecia",
+    "type": "player",
+    "name": "Jugador 5 Grecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GRE-07",
+    "number": 827,
+    "team": "Grecia",
+    "type": "player",
+    "name": "Jugador 6 Grecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GRE-08",
+    "number": 828,
+    "team": "Grecia",
+    "type": "player",
+    "name": "Jugador 7 Grecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GRE-09",
+    "number": 829,
+    "team": "Grecia",
+    "type": "player",
+    "name": "Jugador 8 Grecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GRE-10",
+    "number": 830,
+    "team": "Grecia",
+    "type": "player",
+    "name": "Jugador 9 Grecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GRE-11",
+    "number": 831,
+    "team": "Grecia",
+    "type": "player",
+    "name": "Jugador 10 Grecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GRE-12",
+    "number": 832,
+    "team": "Grecia",
+    "type": "player",
+    "name": "Jugador 11 Grecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GRE-13",
+    "number": 833,
+    "team": "Grecia",
+    "type": "team_photo",
+    "name": "Equipo Grecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GRE-14",
+    "number": 834,
+    "team": "Grecia",
+    "type": "player",
+    "name": "Jugador 13 Grecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GRE-15",
+    "number": 835,
+    "team": "Grecia",
+    "type": "player",
+    "name": "Jugador 14 Grecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GRE-16",
+    "number": 836,
+    "team": "Grecia",
+    "type": "player",
+    "name": "Jugador 15 Grecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GRE-17",
+    "number": 837,
+    "team": "Grecia",
+    "type": "player",
+    "name": "Jugador 16 Grecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GRE-18",
+    "number": 838,
+    "team": "Grecia",
+    "type": "player",
+    "name": "Jugador 17 Grecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GRE-19",
+    "number": 839,
+    "team": "Grecia",
+    "type": "player",
+    "name": "Jugador 18 Grecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "GRE-20",
+    "number": 840,
+    "team": "Grecia",
+    "type": "player",
+    "name": "Jugador 19 Grecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TUR-01",
+    "number": 841,
+    "team": "Turquía",
+    "type": "badge",
+    "name": "Escudo Turquía",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TUR-02",
+    "number": 842,
+    "team": "Turquía",
+    "type": "player",
+    "name": "Jugador 1 Turquía",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TUR-03",
+    "number": 843,
+    "team": "Turquía",
+    "type": "player",
+    "name": "Jugador 2 Turquía",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TUR-04",
+    "number": 844,
+    "team": "Turquía",
+    "type": "player",
+    "name": "Jugador 3 Turquía",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TUR-05",
+    "number": 845,
+    "team": "Turquía",
+    "type": "player",
+    "name": "Jugador 4 Turquía",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TUR-06",
+    "number": 846,
+    "team": "Turquía",
+    "type": "player",
+    "name": "Jugador 5 Turquía",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TUR-07",
+    "number": 847,
+    "team": "Turquía",
+    "type": "player",
+    "name": "Jugador 6 Turquía",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TUR-08",
+    "number": 848,
+    "team": "Turquía",
+    "type": "player",
+    "name": "Jugador 7 Turquía",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TUR-09",
+    "number": 849,
+    "team": "Turquía",
+    "type": "player",
+    "name": "Jugador 8 Turquía",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TUR-10",
+    "number": 850,
+    "team": "Turquía",
+    "type": "player",
+    "name": "Jugador 9 Turquía",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TUR-11",
+    "number": 851,
+    "team": "Turquía",
+    "type": "player",
+    "name": "Jugador 10 Turquía",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TUR-12",
+    "number": 852,
+    "team": "Turquía",
+    "type": "player",
+    "name": "Jugador 11 Turquía",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TUR-13",
+    "number": 853,
+    "team": "Turquía",
+    "type": "team_photo",
+    "name": "Equipo Turquía",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TUR-14",
+    "number": 854,
+    "team": "Turquía",
+    "type": "player",
+    "name": "Jugador 13 Turquía",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TUR-15",
+    "number": 855,
+    "team": "Turquía",
+    "type": "player",
+    "name": "Jugador 14 Turquía",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TUR-16",
+    "number": 856,
+    "team": "Turquía",
+    "type": "player",
+    "name": "Jugador 15 Turquía",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TUR-17",
+    "number": 857,
+    "team": "Turquía",
+    "type": "player",
+    "name": "Jugador 16 Turquía",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TUR-18",
+    "number": 858,
+    "team": "Turquía",
+    "type": "player",
+    "name": "Jugador 17 Turquía",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TUR-19",
+    "number": 859,
+    "team": "Turquía",
+    "type": "player",
+    "name": "Jugador 18 Turquía",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "TUR-20",
+    "number": 860,
+    "team": "Turquía",
+    "type": "player",
+    "name": "Jugador 19 Turquía",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "UCR-01",
+    "number": 861,
+    "team": "Ucrania",
+    "type": "badge",
+    "name": "Escudo Ucrania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "UCR-02",
+    "number": 862,
+    "team": "Ucrania",
+    "type": "player",
+    "name": "Jugador 1 Ucrania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "UCR-03",
+    "number": 863,
+    "team": "Ucrania",
+    "type": "player",
+    "name": "Jugador 2 Ucrania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "UCR-04",
+    "number": 864,
+    "team": "Ucrania",
+    "type": "player",
+    "name": "Jugador 3 Ucrania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "UCR-05",
+    "number": 865,
+    "team": "Ucrania",
+    "type": "player",
+    "name": "Jugador 4 Ucrania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "UCR-06",
+    "number": 866,
+    "team": "Ucrania",
+    "type": "player",
+    "name": "Jugador 5 Ucrania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "UCR-07",
+    "number": 867,
+    "team": "Ucrania",
+    "type": "player",
+    "name": "Jugador 6 Ucrania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "UCR-08",
+    "number": 868,
+    "team": "Ucrania",
+    "type": "player",
+    "name": "Jugador 7 Ucrania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "UCR-09",
+    "number": 869,
+    "team": "Ucrania",
+    "type": "player",
+    "name": "Jugador 8 Ucrania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "UCR-10",
+    "number": 870,
+    "team": "Ucrania",
+    "type": "player",
+    "name": "Jugador 9 Ucrania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "UCR-11",
+    "number": 871,
+    "team": "Ucrania",
+    "type": "player",
+    "name": "Jugador 10 Ucrania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "UCR-12",
+    "number": 872,
+    "team": "Ucrania",
+    "type": "player",
+    "name": "Jugador 11 Ucrania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "UCR-13",
+    "number": 873,
+    "team": "Ucrania",
+    "type": "team_photo",
+    "name": "Equipo Ucrania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "UCR-14",
+    "number": 874,
+    "team": "Ucrania",
+    "type": "player",
+    "name": "Jugador 13 Ucrania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "UCR-15",
+    "number": 875,
+    "team": "Ucrania",
+    "type": "player",
+    "name": "Jugador 14 Ucrania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "UCR-16",
+    "number": 876,
+    "team": "Ucrania",
+    "type": "player",
+    "name": "Jugador 15 Ucrania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "UCR-17",
+    "number": 877,
+    "team": "Ucrania",
+    "type": "player",
+    "name": "Jugador 16 Ucrania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "UCR-18",
+    "number": 878,
+    "team": "Ucrania",
+    "type": "player",
+    "name": "Jugador 17 Ucrania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "UCR-19",
+    "number": 879,
+    "team": "Ucrania",
+    "type": "player",
+    "name": "Jugador 18 Ucrania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "UCR-20",
+    "number": 880,
+    "team": "Ucrania",
+    "type": "player",
+    "name": "Jugador 19 Ucrania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "RUM-01",
+    "number": 881,
+    "team": "Rumania",
+    "type": "badge",
+    "name": "Escudo Rumania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "RUM-02",
+    "number": 882,
+    "team": "Rumania",
+    "type": "player",
+    "name": "Jugador 1 Rumania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "RUM-03",
+    "number": 883,
+    "team": "Rumania",
+    "type": "player",
+    "name": "Jugador 2 Rumania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "RUM-04",
+    "number": 884,
+    "team": "Rumania",
+    "type": "player",
+    "name": "Jugador 3 Rumania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "RUM-05",
+    "number": 885,
+    "team": "Rumania",
+    "type": "player",
+    "name": "Jugador 4 Rumania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "RUM-06",
+    "number": 886,
+    "team": "Rumania",
+    "type": "player",
+    "name": "Jugador 5 Rumania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "RUM-07",
+    "number": 887,
+    "team": "Rumania",
+    "type": "player",
+    "name": "Jugador 6 Rumania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "RUM-08",
+    "number": 888,
+    "team": "Rumania",
+    "type": "player",
+    "name": "Jugador 7 Rumania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "RUM-09",
+    "number": 889,
+    "team": "Rumania",
+    "type": "player",
+    "name": "Jugador 8 Rumania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "RUM-10",
+    "number": 890,
+    "team": "Rumania",
+    "type": "player",
+    "name": "Jugador 9 Rumania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "RUM-11",
+    "number": 891,
+    "team": "Rumania",
+    "type": "player",
+    "name": "Jugador 10 Rumania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "RUM-12",
+    "number": 892,
+    "team": "Rumania",
+    "type": "player",
+    "name": "Jugador 11 Rumania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "RUM-13",
+    "number": 893,
+    "team": "Rumania",
+    "type": "team_photo",
+    "name": "Equipo Rumania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "RUM-14",
+    "number": 894,
+    "team": "Rumania",
+    "type": "player",
+    "name": "Jugador 13 Rumania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "RUM-15",
+    "number": 895,
+    "team": "Rumania",
+    "type": "player",
+    "name": "Jugador 14 Rumania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "RUM-16",
+    "number": 896,
+    "team": "Rumania",
+    "type": "player",
+    "name": "Jugador 15 Rumania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "RUM-17",
+    "number": 897,
+    "team": "Rumania",
+    "type": "player",
+    "name": "Jugador 16 Rumania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "RUM-18",
+    "number": 898,
+    "team": "Rumania",
+    "type": "player",
+    "name": "Jugador 17 Rumania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "RUM-19",
+    "number": 899,
+    "team": "Rumania",
+    "type": "player",
+    "name": "Jugador 18 Rumania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "RUM-20",
+    "number": 900,
+    "team": "Rumania",
+    "type": "player",
+    "name": "Jugador 19 Rumania",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUE-01",
+    "number": 901,
+    "team": "Suecia",
+    "type": "badge",
+    "name": "Escudo Suecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUE-02",
+    "number": 902,
+    "team": "Suecia",
+    "type": "player",
+    "name": "Jugador 1 Suecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUE-03",
+    "number": 903,
+    "team": "Suecia",
+    "type": "player",
+    "name": "Jugador 2 Suecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUE-04",
+    "number": 904,
+    "team": "Suecia",
+    "type": "player",
+    "name": "Jugador 3 Suecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUE-05",
+    "number": 905,
+    "team": "Suecia",
+    "type": "player",
+    "name": "Jugador 4 Suecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUE-06",
+    "number": 906,
+    "team": "Suecia",
+    "type": "player",
+    "name": "Jugador 5 Suecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUE-07",
+    "number": 907,
+    "team": "Suecia",
+    "type": "player",
+    "name": "Jugador 6 Suecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUE-08",
+    "number": 908,
+    "team": "Suecia",
+    "type": "player",
+    "name": "Jugador 7 Suecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUE-09",
+    "number": 909,
+    "team": "Suecia",
+    "type": "player",
+    "name": "Jugador 8 Suecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUE-10",
+    "number": 910,
+    "team": "Suecia",
+    "type": "player",
+    "name": "Jugador 9 Suecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUE-11",
+    "number": 911,
+    "team": "Suecia",
+    "type": "player",
+    "name": "Jugador 10 Suecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUE-12",
+    "number": 912,
+    "team": "Suecia",
+    "type": "player",
+    "name": "Jugador 11 Suecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUE-13",
+    "number": 913,
+    "team": "Suecia",
+    "type": "team_photo",
+    "name": "Equipo Suecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUE-14",
+    "number": 914,
+    "team": "Suecia",
+    "type": "player",
+    "name": "Jugador 13 Suecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUE-15",
+    "number": 915,
+    "team": "Suecia",
+    "type": "player",
+    "name": "Jugador 14 Suecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUE-16",
+    "number": 916,
+    "team": "Suecia",
+    "type": "player",
+    "name": "Jugador 15 Suecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUE-17",
+    "number": 917,
+    "team": "Suecia",
+    "type": "player",
+    "name": "Jugador 16 Suecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUE-18",
+    "number": 918,
+    "team": "Suecia",
+    "type": "player",
+    "name": "Jugador 17 Suecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUE-19",
+    "number": 919,
+    "team": "Suecia",
+    "type": "player",
+    "name": "Jugador 18 Suecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "SUE-20",
+    "number": 920,
+    "team": "Suecia",
+    "type": "player",
+    "name": "Jugador 19 Suecia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NOR-01",
+    "number": 921,
+    "team": "Noruega",
+    "type": "badge",
+    "name": "Escudo Noruega",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NOR-02",
+    "number": 922,
+    "team": "Noruega",
+    "type": "player",
+    "name": "Jugador 1 Noruega",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NOR-03",
+    "number": 923,
+    "team": "Noruega",
+    "type": "player",
+    "name": "Jugador 2 Noruega",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NOR-04",
+    "number": 924,
+    "team": "Noruega",
+    "type": "player",
+    "name": "Jugador 3 Noruega",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NOR-05",
+    "number": 925,
+    "team": "Noruega",
+    "type": "player",
+    "name": "Jugador 4 Noruega",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NOR-06",
+    "number": 926,
+    "team": "Noruega",
+    "type": "player",
+    "name": "Jugador 5 Noruega",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NOR-07",
+    "number": 927,
+    "team": "Noruega",
+    "type": "player",
+    "name": "Jugador 6 Noruega",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NOR-08",
+    "number": 928,
+    "team": "Noruega",
+    "type": "player",
+    "name": "Jugador 7 Noruega",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NOR-09",
+    "number": 929,
+    "team": "Noruega",
+    "type": "player",
+    "name": "Jugador 8 Noruega",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NOR-10",
+    "number": 930,
+    "team": "Noruega",
+    "type": "player",
+    "name": "Jugador 9 Noruega",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NOR-11",
+    "number": 931,
+    "team": "Noruega",
+    "type": "player",
+    "name": "Jugador 10 Noruega",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NOR-12",
+    "number": 932,
+    "team": "Noruega",
+    "type": "player",
+    "name": "Jugador 11 Noruega",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NOR-13",
+    "number": 933,
+    "team": "Noruega",
+    "type": "team_photo",
+    "name": "Equipo Noruega",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NOR-14",
+    "number": 934,
+    "team": "Noruega",
+    "type": "player",
+    "name": "Jugador 13 Noruega",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NOR-15",
+    "number": 935,
+    "team": "Noruega",
+    "type": "player",
+    "name": "Jugador 14 Noruega",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NOR-16",
+    "number": 936,
+    "team": "Noruega",
+    "type": "player",
+    "name": "Jugador 15 Noruega",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NOR-17",
+    "number": 937,
+    "team": "Noruega",
+    "type": "player",
+    "name": "Jugador 16 Noruega",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NOR-18",
+    "number": 938,
+    "team": "Noruega",
+    "type": "player",
+    "name": "Jugador 17 Noruega",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NOR-19",
+    "number": 939,
+    "team": "Noruega",
+    "type": "player",
+    "name": "Jugador 18 Noruega",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "NOR-20",
+    "number": 940,
+    "team": "Noruega",
+    "type": "player",
+    "name": "Jugador 19 Noruega",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FIN-01",
+    "number": 941,
+    "team": "Finlandia",
+    "type": "badge",
+    "name": "Escudo Finlandia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FIN-02",
+    "number": 942,
+    "team": "Finlandia",
+    "type": "player",
+    "name": "Jugador 1 Finlandia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FIN-03",
+    "number": 943,
+    "team": "Finlandia",
+    "type": "player",
+    "name": "Jugador 2 Finlandia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FIN-04",
+    "number": 944,
+    "team": "Finlandia",
+    "type": "player",
+    "name": "Jugador 3 Finlandia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FIN-05",
+    "number": 945,
+    "team": "Finlandia",
+    "type": "player",
+    "name": "Jugador 4 Finlandia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FIN-06",
+    "number": 946,
+    "team": "Finlandia",
+    "type": "player",
+    "name": "Jugador 5 Finlandia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FIN-07",
+    "number": 947,
+    "team": "Finlandia",
+    "type": "player",
+    "name": "Jugador 6 Finlandia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FIN-08",
+    "number": 948,
+    "team": "Finlandia",
+    "type": "player",
+    "name": "Jugador 7 Finlandia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FIN-09",
+    "number": 949,
+    "team": "Finlandia",
+    "type": "player",
+    "name": "Jugador 8 Finlandia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FIN-10",
+    "number": 950,
+    "team": "Finlandia",
+    "type": "player",
+    "name": "Jugador 9 Finlandia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FIN-11",
+    "number": 951,
+    "team": "Finlandia",
+    "type": "player",
+    "name": "Jugador 10 Finlandia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FIN-12",
+    "number": 952,
+    "team": "Finlandia",
+    "type": "player",
+    "name": "Jugador 11 Finlandia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FIN-13",
+    "number": 953,
+    "team": "Finlandia",
+    "type": "team_photo",
+    "name": "Equipo Finlandia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FIN-14",
+    "number": 954,
+    "team": "Finlandia",
+    "type": "player",
+    "name": "Jugador 13 Finlandia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FIN-15",
+    "number": 955,
+    "team": "Finlandia",
+    "type": "player",
+    "name": "Jugador 14 Finlandia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FIN-16",
+    "number": 956,
+    "team": "Finlandia",
+    "type": "player",
+    "name": "Jugador 15 Finlandia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FIN-17",
+    "number": 957,
+    "team": "Finlandia",
+    "type": "player",
+    "name": "Jugador 16 Finlandia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FIN-18",
+    "number": 958,
+    "team": "Finlandia",
+    "type": "player",
+    "name": "Jugador 17 Finlandia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FIN-19",
+    "number": 959,
+    "team": "Finlandia",
+    "type": "player",
+    "name": "Jugador 18 Finlandia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FIN-20",
+    "number": 960,
+    "team": "Finlandia",
+    "type": "player",
+    "name": "Jugador 19 Finlandia",
+    "rarity": "base",
+    "image": null
+  },
+  {
+    "id": "FWC-961",
+    "number": 961,
+    "team": "Global",
+    "type": "special",
+    "name": "Special Sticker 961",
+    "rarity": "special",
+    "image": null
+  },
+  {
+    "id": "FWC-962",
+    "number": 962,
+    "team": "Global",
+    "type": "special",
+    "name": "Special Sticker 962",
+    "rarity": "special",
+    "image": null
+  },
+  {
+    "id": "FWC-963",
+    "number": 963,
+    "team": "Global",
+    "type": "special",
+    "name": "Special Sticker 963",
+    "rarity": "special",
+    "image": null
+  },
+  {
+    "id": "FWC-964",
+    "number": 964,
+    "team": "Global",
+    "type": "special",
+    "name": "Special Sticker 964",
+    "rarity": "special",
+    "image": null
+  },
+  {
+    "id": "FWC-965",
+    "number": 965,
+    "team": "Global",
+    "type": "special",
+    "name": "Special Sticker 965",
+    "rarity": "special",
+    "image": null
+  },
+  {
+    "id": "FWC-966",
+    "number": 966,
+    "team": "Global",
+    "type": "special",
+    "name": "Special Sticker 966",
+    "rarity": "special",
+    "image": null
+  },
+  {
+    "id": "FWC-967",
+    "number": 967,
+    "team": "Global",
+    "type": "special",
+    "name": "Special Sticker 967",
+    "rarity": "special",
+    "image": null
+  },
+  {
+    "id": "FWC-968",
+    "number": 968,
+    "team": "Global",
+    "type": "special",
+    "name": "Special Sticker 968",
+    "rarity": "special",
+    "image": null
+  },
+  {
+    "id": "FWC-969",
+    "number": 969,
+    "team": "Global",
+    "type": "special",
+    "name": "Special Sticker 969",
+    "rarity": "special",
+    "image": null
+  },
+  {
+    "id": "FWC-970",
+    "number": 970,
+    "team": "Global",
+    "type": "special",
+    "name": "Special Sticker 970",
+    "rarity": "special",
+    "image": null
+  },
+  {
+    "id": "FWC-971",
+    "number": 971,
+    "team": "Global",
+    "type": "special",
+    "name": "Special Sticker 971",
+    "rarity": "special",
+    "image": null
+  },
+  {
+    "id": "FWC-972",
+    "number": 972,
+    "team": "Global",
+    "type": "special",
+    "name": "Special Sticker 972",
+    "rarity": "special",
+    "image": null
+  },
+  {
+    "id": "FWC-973",
+    "number": 973,
+    "team": "Global",
+    "type": "special",
+    "name": "Special Sticker 973",
+    "rarity": "special",
+    "image": null
+  },
+  {
+    "id": "FWC-974",
+    "number": 974,
+    "team": "Global",
+    "type": "special",
+    "name": "Special Sticker 974",
+    "rarity": "special",
+    "image": null
+  },
+  {
+    "id": "FWC-975",
+    "number": 975,
+    "team": "Global",
+    "type": "special",
+    "name": "Special Sticker 975",
+    "rarity": "special",
+    "image": null
+  },
+  {
+    "id": "FWC-976",
+    "number": 976,
+    "team": "Global",
+    "type": "special",
+    "name": "Special Sticker 976",
+    "rarity": "special",
+    "image": null
+  },
+  {
+    "id": "FWC-977",
+    "number": 977,
+    "team": "Global",
+    "type": "special",
+    "name": "Special Sticker 977",
+    "rarity": "special",
+    "image": null
+  },
+  {
+    "id": "FWC-978",
+    "number": 978,
+    "team": "Global",
+    "type": "special",
+    "name": "Special Sticker 978",
+    "rarity": "special",
+    "image": null
+  },
+  {
+    "id": "FWC-979",
+    "number": 979,
+    "team": "Global",
+    "type": "special",
+    "name": "Special Sticker 979",
+    "rarity": "special",
+    "image": null
+  },
+  {
+    "id": "FWC-980",
+    "number": 980,
+    "team": "Global",
+    "type": "special",
+    "name": "Special Sticker 980",
+    "rarity": "special",
+    "image": null
+  }
+]

@@ -330,10 +330,45 @@ form > button:hover {
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.figuritas-section h2 {
-  margin-top: 0;
+.section-header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   margin-bottom: 1.5rem;
+}
+
+.section-header h2 {
+  margin: 0;
   font-size: 1.5rem;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.filter-btn.active {
+  background: #2ecc71;
+  border-color: #2ecc71;
+  color: #fff;
 }
 
 .figuritas-grid {
@@ -363,11 +398,17 @@ form > button:hover {
   border-color: rgba(46, 204, 113, 0.5);
 }
 
+.figurita-card.duplicate {
+  background: rgba(59, 130, 246, 0.2);
+  border-color: rgba(59, 130, 246, 0.5);
+}
+
 .figurita-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 0.5rem;
+  position: relative;
 }
 
 .figurita-numero {
@@ -385,6 +426,16 @@ form > button:hover {
   font-weight: 700;
 }
 
+.duplicate-badge {
+  background: #3b82f6;
+  color: #fff;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-left: 0.3rem;
+}
+
 .figurita-card h3 {
   margin: 0.5rem 0;
   font-size: 0.95rem;
@@ -398,17 +449,39 @@ form > button:hover {
   opacity: 0.8;
 }
 
-.figurita-card .add-btn {
-  background: #2ecc71;
+.button-group {
+  display: flex;
+  gap: 0.5rem;
   margin-top: 0.75rem;
+  flex-direction: column;
+}
+
+.figurita-card .add-btn,
+.figurita-card .remove-btn {
+  background: #2ecc71;
   padding: 0.5rem 1rem;
   font-size: 0.85rem;
-  width: 100%;
+  flex: 1;
   box-sizing: border-box;
 }
 
 .figurita-card .add-btn:hover {
   background: #27ae60;
+}
+
+.figurita-card .remove-btn {
+  background: #ef4444;
+}
+
+.figurita-card .remove-btn:hover {
+  background: #dc2626;
+}
+
+.no-results {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-style: italic;
+  padding: 2rem;
 }
 
 /* Utility Classes */

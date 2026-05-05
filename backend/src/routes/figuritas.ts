@@ -5,6 +5,7 @@ import {
     getUserCollection,
     addFiguritaToCollection,
     removeFiguritaFromCollection,
+    decreaseFiguritaQuantity,
     getMissingFiguritas,
     getCollectionStats,
 } from '../controllers/figuritasController';
@@ -46,6 +47,12 @@ router.get('/collection/stats', getCollectionStats);
  * Add figurita to collection (requires auth)
  */
 router.post('/collection', addFiguritaToCollection);
+
+/**
+ * PATCH /api/figuritas/collection/:figurita_id
+ * Decrease figurita quantity by 1 (requires auth)
+ */
+router.patch('/collection/:figurita_id', decreaseFiguritaQuantity);
 
 /**
  * DELETE /api/figuritas/collection/:figurita_id

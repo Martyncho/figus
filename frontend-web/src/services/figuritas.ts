@@ -59,6 +59,12 @@ export const figuritasService = {
         return typeof response === 'object' && !Array.isArray(response) && response.data ? response.data : response
     },
 
+    async decreaseFiguritaQuantity(figuritaId: string): Promise<UserFigurita | void> {
+        const response = await apiClient.patch<any>(`/api/figuritas/collection/${figuritaId}`, {})
+        // Handle both wrapped and unwrapped responses
+        return typeof response === 'object' && !Array.isArray(response) && response.data ? response.data : response
+    },
+
     async removeFiguritaFromCollection(figuritaId: string): Promise<void> {
         await apiClient.delete(`/api/figuritas/collection/${figuritaId}`)
     },
