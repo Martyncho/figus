@@ -29,22 +29,46 @@ function App() {
   const [filterRarity, setFilterRarity] = useState<string>('all')
   const [filterCardType, setFilterCardType] = useState<string>('all')
 
-  // Initialize - check if user is already logged in
+  /**
+   * Professional Session Recovery on App Mount
+   * - Checks for stored token in localStorage
+   * - Validates token with server
+   * - Restores user session if valid
+   * - Shows loading state during recovery
+   * - Clears invalid/expired tokens
+   */
   useEffect(() => {
-    const initUser = async () => {
+    const recoverUserSession = async () => {
       try {
-        if (authService.isAuthenticated()) {
-          const currentUser = await authService.getCurrentUser()
-          setUser(currentUser)
+        setIsLoading(true)
+        console.log('[recoverUserSession] Starting session recovery...')
+        
+        // Attempt to recover session from localStorage
+        const recoveredUser = await authService.recoverSession()
+        console.log('[recoverUserSession] Recovered user:', recoveredUser)
+        
+        if (recoveredUser) {
+          // Session recovered successfully
+          console.log('[recoverUserSession] Session recovered, setting user:', recoveredUser.username)
+          setUser(recoveredUser)
+          setAuthError(null)
+        } else {
+          // No valid session - user will see login screen
+          console.log('[recoverUserSession] No valid session found')
+          setUser(null)
         }
-      } catch (err) {
+      } catch (error) {
+        console.error('Session recovery error:', error)
+        // Clear everything on error
         authService.logout()
+        setUser(null)
       } finally {
         setIsLoading(false)
       }
     }
 
-    initUser()
+    // Run on app mount
+    recoverUserSession()
   }, [])
 
   // Load dashboard data when user is authenticated
@@ -112,11 +136,31 @@ function App() {
     }
   }
 
+  /**
+   * Professional logout with complete state cleanup
+   * - Clears token from storage
+   * - Resets user state
+   * - Clears collection and dashboard data
+   * - Resets form data
+   * - Clears any error messages
+   */
   const handleLogout = () => {
+    // Clear auth
     authService.logout()
     setUser(null)
+    
+    // Clear dashboard data (prevent data leakage to next user)
+    setStats(null)
+    setScanStats(null)
+    setFiguritas([])
+    setCollection([])
+    
+    // Clear form
     setFormData({ email: '', password: '', username: '', name: '' })
+    
+    // Clear errors
     setAuthError(null)
+    setIsLoginMode(true)
   }
 
   const handleAddToCollection = async (figuritaId: string) => {
@@ -191,8 +235,23 @@ function App() {
 
   const filteredFiguritas = getFilteredFiguritas()
 
+  /**
+   * Professional Loading Screen
+   * Shown while recovering session from localStorage
+   */
   if (isLoading) {
-    return <div className="app"><p>Cargando...</p></div>
+    return (
+      <div className="app" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '100vh' }}>
+        <header className="app-header">
+          <h1>🎌 Panini Figuritas</h1>
+        </header>
+        <div style={{ textAlign: 'center', padding: '2rem' }}>
+          <div style={{ fontSize: '3rem', marginBottom: '1rem', animation: 'pulse 1.5s ease-in-out infinite' }}>🎴</div>
+          <p style={{ fontSize: '1.2rem', color: '#666' }}>Verificando sesión...</p>
+          <p style={{ fontSize: '0.9rem', color: '#999', marginTop: '1rem' }}>Por favor espera mientras recuperamos tu colección</p>
+        </div>
+      </div>
+    )
   }
 
   // Auth view
