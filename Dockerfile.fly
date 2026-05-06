@@ -13,6 +13,7 @@ RUN npm cache clean --force && npm install --legacy-peer-deps
 
 COPY frontend-web/src ./src
 COPY frontend-web/tsconfig.json ./
+COPY frontend-web/tsconfig.node.json ./
 COPY frontend-web/vite.config.ts ./
 COPY frontend-web/index.html ./
 
