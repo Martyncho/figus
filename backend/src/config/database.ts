@@ -37,7 +37,15 @@ function customLookup(hostname: string, options: any, callback: any) {
 // This allows us to properly configure SSL and other options
 const parseConnectionUrl = (urlString: string) => {
   try {
-    const url = new URL(urlString);
+    let url = new URL(urlString);
+    
+    // If connecting to Supabase, use the Connection Pooler (port 6543)
+    // instead of the direct connection (port 5432) to avoid IPv6 issues
+    if (url.hostname.includes('supabase.co') && url.port === '5432') {
+      url.port = '6543';
+      logger.info('Switched to Supabase Connection Pooler (port 6543)');
+    }
+    
     return {
       user: url.username,
       password: url.password,
