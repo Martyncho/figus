@@ -58,12 +58,10 @@ const getPoolConfig = () => {
 const poolConfig = getPoolConfig();
 const pool = new Pool(poolConfig);
 
-pool.on('connect', () => {
-    logger.info('Database pool connected');
-});
-
+// Don't let pool errors crash the server
 pool.on('error', (err) => {
     logger.error('Database pool error', { error: err });
+    // Don't re-throw - let server continue running
 });
 
 /**
