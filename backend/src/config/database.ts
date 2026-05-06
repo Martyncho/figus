@@ -1,4 +1,6 @@
 import { Pool, Client } from 'pg';
+import { lookup } from 'dns';
+import { promisify } from 'util';
 import logger from '../utils/logger';
 
 /**
@@ -6,10 +8,22 @@ import logger from '../utils/logger';
  * PostgreSQL connection pool
  */
 
+const dnsLookup = promisify(lookup);
+
 // Use DATABASE_URL if available (for Supabase/Railway), otherwise use individual credentials
 const databaseUrl = process.env.DATABASE_URL;
 
-// Parse connection string to individual components (required for family: 4 support)
+// Custom DNS lookup that forces IPv4 only
+const ipv4Lookup = async (hostname: string, options: any, callback: any) => {
+  try {
+    const result = await dnsLookup(hostname, { family: 4 });
+    callback(null, result.address, result.family);
+  } catch (err) {
+    callback(err);
+  }
+};
+
+// Parse connection string to individual components (required for IPv4 lookup)
 const parseConnectionUrl = (urlString: string) => {
   try {
     const url = new URL(urlString);
@@ -20,10 +34,10 @@ const parseConnectionUrl = (urlString: string) => {
       port: parseInt(url.port || '5432'),
       database: url.pathname.slice(1),
       ssl: { rejectUnauthorized: false },
-      family: 4, // Force IPv4
       max: 20,
       idleTimeoutMillis: 30000,
       connectionTimeoutMillis: 5000,
+      lookup: ipv4Lookup,  // Use custom lookup that forces IPv4
     };
   } catch (err) {
     logger.error('Failed to parse DATABASE_URL', { error: err });
