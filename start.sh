@@ -1,8 +1,7 @@
 #!/bin/bash
 # This file is deprecated and kept only for compatibility.
 # The application now uses npm scripts for local development.
-    echo "✅ Archivo .env.local creado. Ajusta si necesitas cambios."
-    echo ""
+exit 0
 fi
 
 # Start services

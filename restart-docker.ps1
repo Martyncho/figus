@@ -1,33 +1,6 @@
-# Professional Docker Restart Script
-# Rebuilds and restarts all containers with session recovery implementation
-
-Write-Host "🔄 Panini Figuritas - Docker Rebuild & Restart Script"  -ForegroundColor Cyan
-Write-Host "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" -ForegroundColor Cyan
-Write-Host ""
-
-# Set working directory
-Set-Location -Path "c:\source\Pani"
-
-# Step 1: Stop containers
-Write-Host "Step 1: Stopping containers..." -ForegroundColor Yellow
-docker-compose down
-Write-Host "✓ Containers stopped" -ForegroundColor Green
-Write-Host ""
-
-# Step 2: Remove old images (optional but recommended for clean build)
-Write-Host "Step 2: Building new images..." -ForegroundColor Yellow
-docker-compose build --no-cache api frontend
-Write-Host "✓ Images built successfully" -ForegroundColor Green
-Write-Host ""
-
-# Step 3: Start containers
-Write-Host "Step 3: Starting containers..." -ForegroundColor Yellow
-docker-compose up -d
-Write-Host "✓ Containers started" -ForegroundColor Green
-Write-Host ""
-
-# Step 4: Wait for services to be ready
-Write-Host "Step 4: Waiting for services to be ready..." -ForegroundColor Yellow
+# This file is deprecated and kept only for compatibility.
+# The application now uses npm scripts for local development.
+exit 0
 Start-Sleep -Seconds 5
 
 # Check service health
