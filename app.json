@@ -1,0 +1,43 @@
+{
+  "name": "Pani Figuritas",
+  "description": "World Cup 2026 Stickers Collection App",
+  "keywords": ["stickers", "world-cup", "figuritas", "node", "react"],
+  "repository": "https://github.com/your-repo/pani",
+  "logo": "",
+  "success_url": "/",
+  "addons": [
+    {
+      "plan": "heroku-postgresql:hobby-dev"
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "NODE_ENV": {
+      "description": "Node environment",
+      "value": "production",
+      "required": true
+    },
+    "JWT_SECRET": {
+      "description": "JWT signing secret (generate random string)",
+      "required": true
+    },
+    "AWS_S3_BUCKET": {
+      "description": "AWS S3 bucket name for sticker uploads",
+      "value": "pani-stickers",
+      "required": false
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "scripts": {
+    "postdeploy": "npm run migrate"
+  }
+}

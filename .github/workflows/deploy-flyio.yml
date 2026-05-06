@@ -1,0 +1,56 @@
+name: Deploy to Fly.io
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+
+jobs:
+  deploy:
+    name: Deploy app
+    runs-on: ubuntu-latest
+    concurrency: deploy-group  # Only one deployment at a time
+    environment: production
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Fly
+        uses: superfly/flyctl-actions/setup-flyctl@master
+
+      - name: Deploy to Fly.io
+        run: flyctl deploy --remote-only
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+
+      - name: Verify deployment
+        run: |
+          sleep 5
+          flyctl status
+          flyctl logs --lines 50
+
+      - name: Health check
+        run: |
+          # Get app URL from fly.io
+          APP_URL=$(flyctl info --json | jq -r '.Hostname')
+          echo "Testing app at: https://$APP_URL"
+          
+          # Test health endpoint
+          curl -f https://$APP_URL/health || exit 1
+          
+          # Test API health
+          curl -f https://$APP_URL/api/health || exit 1
+
+      - name: Notify success
+        if: success()
+        run: echo "✅ Deployment successful!"
+
+      - name: Notify failure
+        if: failure()
+        run: |
+          echo "❌ Deployment failed!"
+          flyctl logs --lines 100
+          exit 1

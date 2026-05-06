@@ -1,0 +1,95 @@
+# fly.toml file for Pani App
+# Documentation: https://fly.io/docs/reference/configuration/
+
+app = "figus"
+primary_region = "sjc"  # San Jose, US (change based on your location)
+
+[build]
+  # Use existing Dockerfile (built for production)
+  dockerfile = "./Dockerfile.fly"  # We'll create a special one for Fly
+
+[[services]]
+  protocol = "tcp"
+  internal_port = 8080
+  processes = ["app"]
+
+  [services.concurrency]
+    type = "connections"
+    hard_limit = 1000
+    soft_limit = 800
+
+  [[services.ports]]
+    port = 80
+    handlers = ["http"]
+    force_https = true
+
+  [[services.ports]]
+    port = 443
+    handlers = ["tls", "http"]
+
+  [services.http_checks]
+    enabled = true
+    grace_period = "5s"
+    interval = "10s"
+    method = "GET"
+    path = "/health"
+    protocol = "http"
+    timeout = "5s"
+    tls_skip_verify = false
+
+    [services.http_checks.headers]
+      User-Agent = "Fly.io-Health-Check"
+
+  [services.tcp_checks]
+    enabled = false
+
+[deploy]
+  release_command = "npm run migrate || true"  # Run migrations before deploy
+  wait_timeout = "300s"
+  strategy = "rolling"  # Zero-downtime deployments
+
+[[statics]]
+  guest_path = "/public"
+  url_prefix = "/public"
+
+[processes]
+  app = "node dist/server.js"  # or npm start
+
+[metrics]
+  port = 9090
+  handlers = ["cpu", "memory"]
+
+[checks]
+  [checks.status]
+    enabled = true
+    type = "http"
+    interval = "10s"
+    timeout = "5s"
+    grace_period = "5s"
+
+[limits]
+  allow_concurrency = true
+  max_concurrent_requests = 1000
+  hard_limit = 4096
+  soft_limit = 3200
+
+[[vm]]
+  memory = "512mb"
+  cpus = 1
+  cpu_kind = "shared"
+  processes = ["app"]
+
+[mounts]
+  source = "pani_data"
+  destination = "/app/data"
+  processes = ["app"]
+
+[env]
+  NODE_ENV = "production"
+  PORT = "8080"
+  CORS_ORIGIN = "https://figus.fly.dev"
+  # Set in flyctl secrets set instead:
+  # DATABASE_URL
+  # REDIS_URL
+  # JWT_SECRET
+  # AWS_*
