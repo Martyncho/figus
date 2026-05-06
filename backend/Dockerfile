@@ -2,19 +2,11 @@ FROM node:18-alpine
 
 WORKDIR /app
 
-# Copiar package files
-COPY package*.json ./
-
-# Install dependencies
-RUN npm install
-
-# Copiar código fuente
-COPY src ./src
-COPY tsconfig.json ./
+# Copiar simple-server.js
 COPY simple-server.js ./
 
-# Exposer puerto
-EXPOSE 8080
+# Exposer puerto - Railway asigna dinámicamente
+EXPOSE 3000
 
-# Iniciar servidor con logs completos
-CMD ["sh", "-c", "exec node simple-server.js 2>&1 | tee /dev/stderr"]
+# Entrypoint directo
+ENTRYPOINT ["node", "simple-server.js"]
