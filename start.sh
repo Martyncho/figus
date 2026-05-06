@@ -2,11 +2,6 @@
 # This file is deprecated and kept only for compatibility.
 # The application now uses npm scripts for local development.
 exit 0
-fi
-
-# Start services
-echo "🚀 Iniciando servicios..."
-docker-compose up -d
 
 echo ""
 echo "⏳ Esperando a que los servicios inicien..."
