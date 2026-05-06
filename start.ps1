@@ -1,32 +1,5 @@
-#!/usr/bin/env pwsh
-# Panini Figuritas - Quick Start Script (Windows)
-# This script sets up and starts the entire system
-
-Write-Host "🎌 Panini Figuritas - Sistema de Coleccion Digital" -ForegroundColor Cyan
-Write-Host "==================================================" -ForegroundColor Cyan
-Write-Host ""
-
-# Check if Docker is installed
-$dockerInstalled = $false
-try {
-    docker --version 2>&1 | Out-Null
-    $dockerInstalled = $true
-    Write-Host "✅ Docker detectado" -ForegroundColor Green
-} catch {
-    Write-Host "❌ Docker no está instalado. Por favor instala Docker Desktop." -ForegroundColor Red
-    exit 1
-}
-
-# Check if Docker Compose is installed
-$composeInstalled = $false
-try {
-    docker-compose --version 2>&1 | Out-Null
-    $composeInstalled = $true
-    Write-Host "✅ Docker Compose detectado" -ForegroundColor Green
-} catch {
-    Write-Host "❌ Docker Compose no está instalado." -ForegroundColor Red
-    exit 1
-}
+# This file is deprecated and kept only for compatibility.
+# The application now uses npm scripts for local development.
 
 Write-Host ""
 

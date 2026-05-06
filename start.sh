@@ -1,33 +1,6 @@
 #!/bin/bash
-
-# Panini Figuritas - Quick Start Script
-# This script sets up and starts the entire system
-
-set -e  # Exit on error
-
-echo "🎌 Panini Figuritas - Sistema de Colección Digital"
-echo "=================================================="
-echo ""
-
-# Check if Docker is installed
-if ! command -v docker &> /dev/null; then
-    echo "❌ Docker no está instalado. Por favor instala Docker."
-    exit 1
-fi
-
-# Check if Docker Compose is installed
-if ! command -v docker-compose &> /dev/null; then
-    echo "❌ Docker Compose no está instalado. Por favor instala Docker Compose."
-    exit 1
-fi
-
-echo "✅ Docker y Docker Compose detectados"
-echo ""
-
-# Check if .env.local exists
-if [ ! -f .env.local ]; then
-    echo "📋 Creando archivo .env.local..."
-    cp .env.example .env.local
+# This file is deprecated and kept only for compatibility.
+# The application now uses npm scripts for local development.
     echo "✅ Archivo .env.local creado. Ajusta si necesitas cambios."
     echo ""
 fi
