@@ -11,15 +11,10 @@ RUN npm install
 # Copiar código fuente
 COPY src ./src
 COPY tsconfig.json ./
-
-# Copiar script de entrada
-COPY entrypoint.sh ./
-
-# Build TypeScript
-RUN npm run build
+COPY simple-server.js ./
 
 # Exposer puerto
 EXPOSE 3000
 
-# Iniciar servidor directamente con IPv4 preference
-CMD ["node", "--dns-result-order=ipv4first", "dist/server.js"]
+# Iniciar servidor simple para debug
+CMD ["node", "simple-server.js"]
