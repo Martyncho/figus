@@ -1,4 +1,5 @@
 import { Pool, Client } from 'pg';
+import * as dns from 'dns';
 import logger from '../utils/logger';
 
 /**
@@ -6,8 +7,31 @@ import logger from '../utils/logger';
  * PostgreSQL connection pool
  */
 
+// Force IPv4 DNS resolution globally
+dns.setDefaultResultOrder('ipv4first');
+
 // Use DATABASE_URL if available (for Supabase/Railway), otherwise use individual credentials
 const databaseUrl = process.env.DATABASE_URL;
+
+// Custom DNS lookup that ALWAYS returns IPv4
+function customLookup(hostname: string, options: any, callback: any) {
+  // Force IPv4 family
+  const ipv4Options = { ...options, family: 4 };
+  dns.lookup(hostname, ipv4Options, (err: any, address: any, family: any) => {
+    if (err) {
+      logger.error(`DNS lookup failed for ${hostname}:`, err);
+      // Fallback to system DNS with IPv4 preference
+      return dns.resolve4(hostname, (err: any, addresses: any) => {
+        if (err) {
+          logger.error(`IPv4 resolution failed for ${hostname}:`, err);
+          return callback(err);
+        }
+        callback(null, addresses[0], 4);
+      });
+    }
+    callback(err, address, family);
+  });
+}
 
 // Parse connection string to use individual host/port/etc (not connectionString)
 // This allows us to properly configure SSL and other options
@@ -28,7 +52,11 @@ const parseConnectionUrl = (urlString: string) => {
       max: 20,
       idleTimeoutMillis: 30000,
       connectionTimeoutMillis: 5000,
-      // Disable IPv6 by using keepalives
+      // Force IPv4
+      family: 4,
+      // Custom DNS lookup
+      lookup: customLookup,
+      // Keepalives for connection stability
       keepalives: 1,
       keepalives_idle: 30,
     };
