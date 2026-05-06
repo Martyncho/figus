@@ -3,8 +3,9 @@ import http from 'http';
 import app from './app';
 import logger from './utils/logger';
 
-const PORT = parseInt(process.env.PORT || '3000', 10);
-const HOST = process.env.HOST || '0.0.0.0';
+// Railway sets PORT, but we'll use it only if it's a valid number
+const PORT = process.env.PORT ? Math.max(1, parseInt(process.env.PORT, 10) || 3000) : 3000;
+const HOST = '0.0.0.0';  // Force 0.0.0.0 for Railway compatibility
 
 // Create HTTP server
 const server = http.createServer(app);
@@ -14,6 +15,7 @@ server.listen(PORT, HOST, () => {
     logger.info(`🚀 Server running on http://${HOST}:${PORT}`);
     logger.info(`Environment: ${process.env.NODE_ENV || 'development'}`);
     logger.info(`Database configured: ${process.env.DATABASE_URL ? 'Supabase' : 'Local'}`);
+    logger.info(`Port from env: ${process.env.PORT}`);
 });
 
 // Error handler for server
