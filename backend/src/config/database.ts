@@ -13,7 +13,8 @@ const poolConfig = databaseUrl
         connectionString: databaseUrl,
         max: 20,
         idleTimeoutMillis: 30000,
-        connectionTimeoutMillis: 2000,
+        connectionTimeoutMillis: 5000,
+        ssl: { rejectUnauthorized: false },
       }
     : {
         host: process.env.DB_HOST || 'localhost',
