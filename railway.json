@@ -1,0 +1,12 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {
+    "dockerfile": "backend/Dockerfile"
+  },
+  "deploy": {
+    "startCommand": "node simple-server.js",
+    "healthchecks": {
+      "enabled": false
+    }
+  }
+}
