@@ -8,15 +8,31 @@ import logger from '../utils/logger';
 
 // Use DATABASE_URL if available (for Supabase/Railway), otherwise use individual credentials
 const databaseUrl = process.env.DATABASE_URL;
+
+// Parse connection string to individual components (required for family: 4 support)
+const parseConnectionUrl = (urlString: string) => {
+  try {
+    const url = new URL(urlString);
+    return {
+      user: url.username,
+      password: url.password,
+      host: url.hostname,
+      port: parseInt(url.port || '5432'),
+      database: url.pathname.slice(1),
+      ssl: { rejectUnauthorized: false },
+      family: 4, // Force IPv4
+      max: 20,
+      idleTimeoutMillis: 30000,
+      connectionTimeoutMillis: 5000,
+    };
+  } catch (err) {
+    logger.error('Failed to parse DATABASE_URL', { error: err });
+    throw err;
+  }
+};
+
 const poolConfig = databaseUrl 
-    ? { 
-        connectionString: databaseUrl,
-        max: 20,
-        idleTimeoutMillis: 30000,
-        connectionTimeoutMillis: 5000,
-        ssl: { rejectUnauthorized: false },
-        family: 4,  // Force IPv4 to avoid IPv6 connection issues with Supabase
-      }
+    ? parseConnectionUrl(databaseUrl)
     : {
         host: process.env.DB_HOST || 'localhost',
         port: parseInt(process.env.DB_PORT || '5432'),
