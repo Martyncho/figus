@@ -1,5 +1,4 @@
 import { Pool, Client } from 'pg';
-import * as dns from 'dns';
 import logger from '../utils/logger';
 
 /**
@@ -7,94 +6,64 @@ import logger from '../utils/logger';
  * PostgreSQL connection pool
  */
 
-// Force IPv4 DNS resolution globally
-dns.setDefaultResultOrder('ipv4first');
-
-// Use DATABASE_URL if available (for Supabase/Railway), otherwise use individual credentials
+// Simple pool configuration using DATABASE_URL
 const databaseUrl = process.env.DATABASE_URL;
 
-// Custom DNS lookup that ALWAYS returns IPv4
-function customLookup(hostname: string, options: any, callback: any) {
-  // Force IPv4 family
-  const ipv4Options = { ...options, family: 4 };
-  dns.lookup(hostname, ipv4Options, (err: any, address: any, family: any) => {
-    if (err) {
-      logger.error(`DNS lookup failed for ${hostname}:`, err);
-      // Fallback to system DNS with IPv4 preference
-      return dns.resolve4(hostname, (err: any, addresses: any) => {
-        if (err) {
-          logger.error(`IPv4 resolution failed for ${hostname}:`, err);
-          return callback(err);
-        }
-        callback(null, addresses[0], 4);
-      });
-    }
-    callback(err, address, family);
-  });
-}
+// If using Supabase Connection Pooler, we can use the direct string
+// otherwise build from individual variables
+const getPoolConfig = () => {
+  if (databaseUrl) {
+    try {
+      const url = new URL(databaseUrl);
+      
+      // If connecting to Supabase direct port 5432, switch to pooler port 6543
+      if (url.hostname.includes('supabase.co') && url.port === '5432') {
+        url.port = '6543';
+        logger.info('Using Supabase Connection Pooler (port 6543)');
+      }
 
-// Parse connection string to use individual host/port/etc (not connectionString)
-// This allows us to properly configure SSL and other options
-const parseConnectionUrl = (urlString: string) => {
-  try {
-    let url = new URL(urlString);
-    
-    // If connecting to Supabase, use the Connection Pooler (port 6543)
-    // instead of the direct connection (port 5432) to avoid IPv6 issues
-    if (url.hostname.includes('supabase.co') && url.port === '5432') {
-      url.port = '6543';
-      logger.info('Switched to Supabase Connection Pooler (port 6543)');
-    }
-    
-    return {
-      user: url.username,
-      password: url.password,
-      host: url.hostname,
-      port: parseInt(url.port || '5432'),
-      database: url.pathname.slice(1),
-      // SSL configuration for Supabase
-      ssl: {
-        rejectUnauthorized: false,
-        mode: 'require' as any,
-      },
-      max: 20,
-      idleTimeoutMillis: 30000,
-      connectionTimeoutMillis: 5000,
-      // Force IPv4
-      family: 4,
-      // Custom DNS lookup
-      lookup: customLookup,
-      // Keepalives for connection stability
-      keepalives: 1,
-      keepalives_idle: 30,
-    };
-  } catch (err) {
-    logger.error('Failed to parse DATABASE_URL', { error: err });
-    throw err;
-  }
-};
-
-const poolConfig = databaseUrl 
-    ? parseConnectionUrl(databaseUrl)
-    : {
-        host: process.env.DB_HOST || 'localhost',
-        port: parseInt(process.env.DB_PORT || '5432'),
-        database: process.env.DB_NAME || 'panini',
-        user: process.env.DB_USER || 'panini_user',
-        password: process.env.DB_PASSWORD || 'panini_dev_password',
+      return {
+        connectionString: url.toString(),
         max: 20,
         idleTimeoutMillis: 30000,
-        connectionTimeoutMillis: 2000,
-    };
+        connectionTimeoutMillis: 5000,
+        ssl: {
+          rejectUnauthorized: false,
+          mode: 'require' as any,
+        }
+      };
+    } catch (err) {
+      logger.error('Failed to parse DATABASE_URL', { error: err });
+      // Fallback to individual variables
+    }
+  }
 
+  // Fallback to individual environment variables
+  return {
+    host: process.env.DB_HOST || 'localhost',
+    port: parseInt(process.env.DB_PORT || '5432'),
+    database: process.env.DB_NAME || 'panini',
+    user: process.env.DB_USER || 'panini_user',
+    password: process.env.DB_PASSWORD || 'panini_dev_password',
+    max: 20,
+    idleTimeoutMillis: 30000,
+    connectionTimeoutMillis: 5000,
+    ssl: {
+      rejectUnauthorized: false,
+      mode: 'require' as any,
+    }
+  };
+};
+
+const poolConfig = getPoolConfig();
 const pool = new Pool(poolConfig);
 
 pool.on('connect', () => {
-    logger.info('Database connected successfully');
+    logger.info('Database pool connected');
 });
 
 pool.on('error', (err) => {
-    logger.error('Unexpected error on idle client', { error: err });
+    logger.error('Database pool error', { error: err });
 });
 
 /**
