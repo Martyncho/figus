@@ -14,7 +14,7 @@ COPY tsconfig.json ./
 COPY simple-server.js ./
 
 # Exposer puerto
-EXPOSE 3000
+EXPOSE 8080
 
-# Iniciar servidor simple para debug
-CMD ["node", "simple-server.js"]
+# Iniciar servidor con logs completos
+CMD ["sh", "-c", "exec node simple-server.js 2>&1 | tee /dev/stderr"]
