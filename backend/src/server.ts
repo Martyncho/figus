@@ -10,16 +10,17 @@ const HOST = process.env.HOST || '0.0.0.0';
 const server = http.createServer(app);
 
 // Start listening
-try {
-    server.listen(PORT, () => {
-        logger.info(`🚀 Server running on http://${HOST}:${PORT}`);
-        logger.info(`Environment: ${process.env.NODE_ENV || 'development'}`);
-        logger.info(`Database configured: ${process.env.DATABASE_URL ? 'Supabase' : 'Local'}`);
-    });
-} catch (err) {
-    logger.error('Failed to start server', { error: err });
+server.listen(PORT, HOST, () => {
+    logger.info(`🚀 Server running on http://${HOST}:${PORT}`);
+    logger.info(`Environment: ${process.env.NODE_ENV || 'development'}`);
+    logger.info(`Database configured: ${process.env.DATABASE_URL ? 'Supabase' : 'Local'}`);
+});
+
+// Error handler for server
+server.on('error', (err: any) => {
+    logger.error('Server error', { error: err });
     process.exit(1);
-}
+});
 
 // ============================================
 // GRACEFUL SHUTDOWN
