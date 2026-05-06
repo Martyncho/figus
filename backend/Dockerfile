@@ -18,5 +18,5 @@ RUN npm run build
 # Exposer puerto
 EXPOSE 3000
 
-# Iniciar servidor
-CMD ["npm", "start"]
+# Iniciar servidor con flag para preferir IPv4
+CMD ["node", "--dns-result-order=ipv4first", "dist/server.js"]
