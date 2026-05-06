@@ -15,6 +15,7 @@ const poolConfig = databaseUrl
         idleTimeoutMillis: 30000,
         connectionTimeoutMillis: 5000,
         ssl: { rejectUnauthorized: false },
+        family: 4,  // Force IPv4 to avoid IPv6 connection issues with Supabase
       }
     : {
         host: process.env.DB_HOST || 'localhost',
