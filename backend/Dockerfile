@@ -2,11 +2,25 @@ FROM node:18-alpine
 
 WORKDIR /app
 
-# Copiar simple-server.js
-COPY simple-server.js ./
+# Copiar package files
+COPY package*.json ./
 
-# Exposer puerto - Railway asigna dinámicamente
+# Install dependencies
+RUN npm install
+
+# Copiar código fuente
+COPY src ./src
+COPY tsconfig.json ./
+
+# Build TypeScript
+RUN npm run build
+
+# Exposer puerto
 EXPOSE 3000
 
-# Entrypoint directo
-ENTRYPOINT ["node", "simple-server.js"]
+# Health check
+HEALTHCHECK --interval=10s --timeout=5s --start-period=5s --retries=3 \
+  CMD node -e "require('http').get('http://localhost:3000/health', (r) => {if (r.statusCode !== 200) throw new Error(r.statusCode)})"
+
+# Iniciar servidor
+CMD ["node", "dist/server.js"]
