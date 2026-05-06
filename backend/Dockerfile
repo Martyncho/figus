@@ -12,11 +12,17 @@ RUN npm install
 COPY src ./src
 COPY tsconfig.json ./
 
+# Copiar script de entrada
+COPY entrypoint.sh ./
+
 # Build TypeScript
 RUN npm run build
+
+# Make entrypoint executable
+RUN chmod +x ./entrypoint.sh
 
 # Exposer puerto
 EXPOSE 3000
 
-# Iniciar servidor con flag para preferir IPv4
-CMD ["node", "--dns-result-order=ipv4first", "dist/server.js"]
+# Iniciar servidor usando script que fuerza IPv4
+CMD ["./entrypoint.sh"]
