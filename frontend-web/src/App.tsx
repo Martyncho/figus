@@ -208,10 +208,10 @@ function App() {
       let statusMatch = true
       switch (filterType) {
         case 'collected':
-          statusMatch = collectedItem && collectedItem.cantidad >= 1
+          statusMatch = !!(collectedItem && collectedItem.cantidad >= 1)
           break
         case 'duplicates':
-          statusMatch = collectedItem && collectedItem.cantidad > 1
+          statusMatch = !!(collectedItem && collectedItem.cantidad > 1)
           break
         case 'missing':
           statusMatch = !collectedItem
