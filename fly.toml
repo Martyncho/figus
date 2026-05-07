@@ -35,7 +35,6 @@ primary_region = "sjc"  # San Jose, US (change based on your location)
       User-Agent = "Fly.io-Health-Check"
 
 [deploy]
-  release_command = "npm run migrate || true"  # Run migrations before deploy
   wait_timeout = "300s"
   strategy = "rolling"  # Zero-downtime deployments
 
