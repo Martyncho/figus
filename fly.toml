@@ -8,26 +8,19 @@ primary_region = "sjc"  # San Jose, US (change based on your location)
   # Use existing Dockerfile (built for production)
   dockerfile = "./Dockerfile.fly"  # We'll create a special one for Fly
 
-[[services]]
-  protocol = "tcp"
+[http_service]
   internal_port = 8080
-  processes = ["app"]
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 1
 
-  [services.concurrency]
+  [http_service.concurrency]
     type = "connections"
     hard_limit = 1000
     soft_limit = 800
 
-  [[services.ports]]
-    port = 80
-    handlers = ["http"]
-    force_https = true
-
-  [[services.ports]]
-    port = 443
-    handlers = ["tls", "http"]
-
-  [services.http_checks]
+  [http_service.http_checks]
     enabled = true
     grace_period = "5s"
     interval = "10s"
@@ -37,11 +30,8 @@ primary_region = "sjc"  # San Jose, US (change based on your location)
     timeout = "5s"
     tls_skip_verify = false
 
-    [services.http_checks.headers]
+    [http_service.http_checks.headers]
       User-Agent = "Fly.io-Health-Check"
-
-  [services.tcp_checks]
-    enabled = false
 
 [deploy]
   release_command = "npm run migrate || true"  # Run migrations before deploy
