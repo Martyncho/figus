@@ -47,6 +47,13 @@ app.use('/api/', limiter);
 app.use(requestLogger);
 
 // ============================================
+// STATIC FILES & REACT FRONTEND
+// ============================================
+
+// Serve static files from the frontend build
+app.use(express.static('public'));
+
+// ============================================
 // HEALTH CHECK & ROUTES
 // ============================================
 
@@ -66,31 +73,13 @@ app.use('/api/figuritas', authMiddleware, figuritasRoutes);
 app.use('/api/scans', authMiddleware, scansRoutes);
 
 // ============================================
-// ROOT ENDPOINT
+// REACT APP FALLBACK
 // ============================================
 
-app.get('/', (req: Request, res: Response) => {
-    res.json({
-        status: 'OK',
-        message: '🎌 Panini Figuritas API',
-        version: '1.0.0',
-        endpoints: {
-            health: '/health',
-            auth: '/api/auth',
-            figuritas: '/api/figuritas',
-            scans: '/api/scans',
-        },
-    });
+// Serve React app for all non-API routes (for React Router SPA)
+app.get('*', (req: Request, res: Response) => {
+    res.sendFile('public/index.html', { root: process.cwd() });
 });
-
-// ============================================
-// API DOCUMENTATION (Swagger)
-// ============================================
-
-// Cuando implemente Swagger/OpenAPI:
-// import swaggerUi from 'swagger-ui-express';
-// import swaggerSpec from './swagger';
-// app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 // ============================================
 // 404 HANDLER
